@@ -15,7 +15,7 @@
       var mg_UK_b = 1310;
 
       // Reset checkboxes
-      var Anfangsbefund = 0;
+      var Initialtherapy = 0;
       var Reevaluation = 0;
 
       function validate_mg(evt) {
@@ -51,16 +51,16 @@
         }
       }
 
-      function toggle_anfangsbefund() {
-        if (Anfangsbefund == 0) {
-          Anfangsbefund = 1;
+      function toggle_initialtherapy() {
+        if (Initialtherapy == 0) {
+          Initialtherapy = 1;
           Reevaluation = 0;
-          document.getElementById("anfangsbefund_tab").style.display = "block";
+          document.getElementById("initialtherapy_tab").style.display = "block";
           document.getElementById("reevaluation_tab").style.display = "none";
         } else {
-          Anfangsbefund = 0;
+          Initialtherapy = 0;
           Reevaluation = 0;
-          document.getElementById("anfangsbefund_tab").style.display = "none";
+          document.getElementById("initialtherapy_tab").style.display = "none";
           document.getElementById("reevaluation_tab").style.display = "none";
         }
       }
@@ -68,13 +68,13 @@
       function toggle_reevaluation() {
         if (Reevaluation == 0) {
           Reevaluation = 1;
-          Anfangsbefund = 0;
-          document.getElementById("anfangsbefund_tab").style.display = "none";
+          Initialtherapy = 0;
+          document.getElementById("initialtherapy_tab").style.display = "none";
           document.getElementById("reevaluation_tab").style.display = "block";
         } else {
-          Anfangsbefund = 0;
+          Initialtherapy = 0;
           Reevaluation = 0;
-          document.getElementById("anfangsbefund_tab").style.display = "none";
+          document.getElementById("initialtherapy_tab").style.display = "none";
           document.getElementById("reevaluation_tab").style.display = "none";
         }
       }
@@ -116,8 +116,8 @@
           <input class="input_data" id="input_clinician" name="clinician" type="text" value="" />
         </div>
 
-        <div class="checkbox_btn" id="initial_therapy" onClick="toggle_anfangsbefund();">
-          <div class="check_tab" id="anfangsbefund_tab" style="display: none">
+        <div class="checkbox_btn" id="initial_therapy" onClick="toggle_initialtherapy();">
+          <div class="check_tab" id="initialtherapy_tab" style="display: none">
             <img src="svg/check.svg" width="25" alt="" />
           </div>
         </div>
