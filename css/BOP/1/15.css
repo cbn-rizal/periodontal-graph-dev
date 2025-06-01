@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 15 bukkal */
+
+#BOP_15_db_btn {
+	position: absolute;
+	z-index: 40;
+	width: 10.25px;
+	height: 13.95px;
+	left: 454.35px;
+	top: 395px;
+}
+
+#BOP_15_b_btn {
+	position: absolute;
+	z-index: 40;
+	width: 10.25px;
+	height: 13.95px;
+	left: 467.65px;
+	top: 395px;
+}
+
+#BOP_15_mb_btn {
+	position: absolute;
+	z-index: 40;
+	width: 10.25px;
+	height: 13.95px;
+	left: 481px;
+	top: 395px;
+}
+
+#BOP_15_db_rectangle {
+	position: relative;
+	top: 0px;
+	line-height: 13.95px; 
+	z-index: 30;
+	margin: auto;
+	text-align: center;
+	pointer-events: none;
+}
+
+#BOP_15_b_rectangle {
+	position: relative;
+	top: 0px;
+	line-height: 13.95px; 
+	z-index: 30;
+	margin: auto;
+	text-align: center;
+	pointer-events: none;
+}
+
+#BOP_15_mb_rectangle {
+	position: relative;
+	top: 0px;
+	line-height: 13.95px; 
+	z-index: 30;
+	margin: auto;
+	text-align: center;
+	pointer-events: none;
+}
+
+/* 15 palatinal */
+
+#BOP_15_dp_btn {
+	position: absolute;
+	z-index: 40;
+	width: 10.25px;
+	height: 13.95px;
+	left: 454.35px;
+	top: 869.25px;
+}
+
+#BOP_15_p_btn {
+	position: absolute;
+	z-index: 40;
+	width: 10.25px;
+	height: 13.95px;
+	left: 467.65px;
+	top: 869.25px;
+}
+
+#BOP_15_mp_btn {
+	position: absolute;
+	z-index: 40;
+	width: 10.25px;
+	height: 13.95px;
+	left: 481px;
+	top: 869.25px;
+}
+
+#BOP_15_dp_rectangle {
+	position: relative;
+	top: 0px;
+	line-height: 13.95px; 
+	z-index: 30;
+	margin: auto;
+	text-align: center;
+	pointer-events: none;
+}
+
+#BOP_15_p_rectangle {
+	position: relative;
+	top: 0px;
+	line-height: 13.95px; 
+	z-index: 30;
+	margin: auto;
+	text-align: center;
+	pointer-events: none;
+}
+
+#BOP_15_mp_rectangle {
+	position: relative;
+	top: 0px;
+	line-height: 13.95px; 
+	z-index: 30;
+	margin: auto;
+	text-align: center;
+	pointer-events: none;
+}

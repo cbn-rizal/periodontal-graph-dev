@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+#tooth_31_btn {
+	position: absolute;
+	z-index: 40;
+	left: 686px;
+	top: 1561.5px;
+	width: 32.25px;
+	height: 14.5px;
+}
+
+#tooth_line_31_l {
+	position: absolute;
+	z-index: 60;
+	left: 697.65px;
+	top: 1092.1px;
+}
+
+#tooth_line_31_b {
+	position: absolute;
+	z-index: 60;
+	left: 692.65px;
+	top: 1257.55px;
+}

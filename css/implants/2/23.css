@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 23 */
+
+#implantat_23_btn {
+	position: absolute;
+	z-index: 40;
+	left: 779.75px;
+	top: 355px;
+	width: 37.25px;
+	height: 14.5px;
+	margin: 50 auto;
+	padding: 0px;
+	background-color: #ECECEC;
+	-webkit-user-select: none; /* Chrome/Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+ */
+	cursor: pointer;
+}
+
+#implantat_23_btn:hover {
+	background-color: #D3DFE7;
+}
+
+#implantat_23_tab {
+	position: relative;
+	z-index: 50;
+    top: 0.2px;
+	line-height: 14.5px;
+	text-align: center;
+	pointer-events: none;
+}
+
+#implantat_23_b_image {
+	position: absolute;
+	z-index: 20;
+	left: 778px;
+	top: 466px;
+	width: 42px;
+	height: 237px;
+	pointer-events: none;
+}
+
+#implantat_23_p_image {
+	position: absolute;
+	z-index: 20;
+	left: 778px;
+	top: 687px;
+	width: 42px;
+	height: 137px;
+	pointer-events: none;
+}

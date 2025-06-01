@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 36 bukkal */
+
+#PI_36_db_btn {
+	position: absolute;
+	z-index: 40;
+	width: 13.3px;
+	height: 13.95px;
+	left: 925.75px;
+	top: 1462.1px;
+}
+
+#PI_36_b_btn {
+	position: absolute;
+	z-index: 40;
+	width: 13.3px;
+	height: 13.95px;
+	left: 908.5px;
+	top: 1462.1px;
+}
+
+#PI_36_mb_btn {
+	position: absolute;
+	z-index: 40;
+	width: 13.3px;
+	height: 13.95px;
+	left: 891.2px;
+	top: 1462.1px;
+}
+
+#PI_36_db_rectangle {
+	position: relative;
+	top: 0px;
+	line-height: 13.95px; 
+	z-index: 30;
+	margin: auto;
+	text-align: center;
+	pointer-events: none;
+}
+
+#PI_36_b_rectangle {
+	position: relative;
+	top: 0px;
+	line-height: 13.95px; 
+	z-index: 30;
+	margin: auto;
+	text-align: center;
+	pointer-events: none;
+}
+
+#PI_36_mb_rectangle {
+	position: relative;
+	top: 0px;
+	line-height: 13.95px; 
+	z-index: 30;
+	margin: auto;
+	text-align: center;
+	pointer-events: none;
+}
+
+/* 36 lingual */
+
+#PI_36_dl_btn {
+	position: absolute;
+	z-index: 40;
+	width: 13.3px;
+	height: 13.95px;
+	left: 925.75px;
+	top: 1028.75px;
+}
+
+#PI_36_l_btn {
+	position: absolute;
+	z-index: 40;
+	width: 13.3px;
+	height: 13.95px;
+	left: 908.5px;
+	top: 1028.75px;
+}
+
+#PI_36_ml_btn {
+	position: absolute;
+	z-index: 40;
+	width: 13.3px;
+	height: 13.95px;
+	left: 891.2px;
+	top: 1028.75px;
+}
+
+#PI_36_dl_rectangle {
+	position: relative;
+	top: 0px;
+	line-height: 13.95px; 
+	z-index: 30;
+	margin: auto;
+	text-align: center;
+	pointer-events: none;
+}
+
+#PI_36_l_rectangle {
+	position: relative;
+	top: 0px;
+	line-height: 13.95px; 
+	z-index: 30;
+	margin: auto;
+	text-align: center;
+	pointer-events: none;
+}
+
+#PI_36_ml_rectangle {
+	position: relative;
+	top: 0px;
+	line-height: 13.95px; 
+	z-index: 30;
+	margin: auto;
+	text-align: center;
+	pointer-events: none;
+}

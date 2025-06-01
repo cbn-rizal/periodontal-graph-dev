@@ -1,0 +1,159 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Positionen der Eingabefelder */
+
+.input_mobility {
+	position: absolute;
+	z-index: 70;
+	width: 17px;
+	height: 17px;
+	border: none;
+	font-family: "Arial Narrow", Sans-Serif;
+	font-size: 14px;
+	text-align: center;
+	padding: 0;
+}
+
+.input_mobility:focus {
+	background-color: lightsteelblue;
+    border-radius: 5px;
+	}
+
+.ok_mobility_input input {
+	top: 333.5px;
+    outline: none;
+}
+
+#mobility_18_txt {
+	left: 303.5px;
+}
+
+#mobility_17_txt {
+	left: 359.5px;
+}
+
+#mobility_16_txt {
+	left: 413.5px;
+}
+
+#mobility_15_txt {
+	left: 464.5px;
+}
+
+#mobility_14_txt {
+	left: 507.5px;
+}
+
+#mobility_13_txt {
+	left: 549.5px;
+}
+
+#mobility_12_txt {
+	left: 590.5px;
+}
+
+#mobility_11_txt {
+	left: 637.5px;
+}
+
+#mobility_21_txt {
+	left: 702.5px;
+}
+
+#mobility_22_txt {
+	left: 746.5px;
+}
+
+#mobility_23_txt {
+	left: 789.5px;
+}
+
+#mobility_24_txt {
+	left: 831.5px;
+}
+
+#mobility_25_txt {
+	left: 873.5px;
+}
+
+#mobility_26_txt {
+	left: 924.5px;
+}
+
+#mobility_27_txt {
+	left: 980.5px;
+}
+
+#mobility_28_txt {
+	left: 1035px;
+}
+
+.uk_mobility_input input {
+	top: 1540px;
+    outline: none;
+}
+
+#mobility_38_txt {
+	left: 1028px;
+}
+
+#mobility_37_txt {
+	left: 965.5px;
+}
+
+#mobility_36_txt {
+	left: 904.5px;
+}
+
+#mobility_35_txt {
+	left: 855.5px;
+}
+
+#mobility_34_txt {
+	left: 813.5px;
+}
+
+#mobility_33_txt {
+	left: 773.5px;
+}
+
+#mobility_32_txt {
+	left: 732.5px;
+}
+
+#mobility_31_txt {
+	left: 692.5px;
+}
+
+#mobility_41_txt {
+	left: 645.5px;
+}
+
+#mobility_42_txt {
+	left: 605.5px;
+}
+
+#mobility_43_txt {
+	left: 564.5px;
+}
+
+#mobility_44_txt {
+	left: 524.5px;
+}
+
+#mobility_45_txt {
+	left: 483.5px;
+}
+
+#mobility_46_txt {
+	left: 433.5px;
+}
+
+#mobility_47_txt {
+	left: 373.5px;
+}
+
+#mobility_48_txt {
+	left: 310px;
+}

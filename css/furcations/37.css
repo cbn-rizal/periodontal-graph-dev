@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Furkation 37 b */
+
+#furkation_37_b_btn {
+	position: absolute;
+	z-index: 40;
+	width: 54.75px;
+	height: 14.5px;
+	left: 947.5px;
+	top: 1501.8px;
+}
+
+#furkation_1_37_b_tab {
+	position: relative;
+	z-index: 50;
+	top: -0.2px;
+	margin: auto;
+	pointer-events: none;
+}
+
+#furkation_2_37_b_tab {
+	position: relative;
+	z-index: 50;
+	top: -0.2px;
+	margin: auto;
+	pointer-events: none;
+}
+
+#furkation_3_37_b_tab {
+	position: relative;
+	z-index: 50;
+	top: -0.2px;
+	margin: auto;
+	pointer-events: none;
+}
+
+#furkation_1_37_b {
+	position: absolute;
+	z-index: 50;
+	top: 1328.5px;
+	left: 967px;
+	pointer-events: none;
+}
+
+#furkation_2_37_b {
+	position: absolute;
+	z-index: 50;
+	top: 1328.5px;
+	left: 967px;
+	pointer-events: none;
+}
+
+#furkation_3_37_b {
+	position: absolute;
+	z-index: 50;
+	top: 1328.5px;
+	left: 967px;
+	pointer-events: none;
+}
+
+/* Furkation 37 l */
+
+#furkation_37_l_btn {
+	position: absolute;
+	z-index: 40;
+	width: 54.75px;
+	height: 14.5px;
+	left: 947.5px;
+	top: 988.5px;
+}
+
+#furkation_1_37_l_tab {
+	position: relative;
+	z-index: 50;
+	top: -0.2px;
+	margin: auto;
+	pointer-events: none;
+}
+
+#furkation_2_37_l_tab {
+	position: relative;
+	z-index: 50;
+	top: -0.2px;
+	margin: auto;
+	pointer-events: none;
+}
+
+#furkation_3_37_l_tab {
+	position: relative;
+	z-index: 50;
+	top: -0.2px;
+	margin: auto;
+	pointer-events: none;
+}
+
+#furkation_1_37_l {
+	position: absolute;
+	z-index: 50;
+	top: 1160.5px;
+	left: 963px;
+	pointer-events: none;
+}
+
+#furkation_2_37_l {
+	position: absolute;
+	z-index: 50;
+	top: 1160.5px;
+	left: 963px;
+	pointer-events: none;
+}
+
+#furkation_3_37_l {
+	position: absolute;
+	z-index: 50;
+	top: 1160.5px;
+	left: 963px;
+	pointer-events: none;
+}

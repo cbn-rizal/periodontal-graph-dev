@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import "teeth/1/18.css";
+@import "teeth/1/17.css";
+@import "teeth/1/16.css";
+@import "teeth/1/15.css";
+@import "teeth/1/14.css";
+@import "teeth/1/13.css";
+@import "teeth/1/12.css";
+@import "teeth/1/11.css";
+
+@import "teeth/2/21.css";
+@import "teeth/2/22.css";
+@import "teeth/2/23.css";
+@import "teeth/2/24.css";
+@import "teeth/2/25.css";
+@import "teeth/2/26.css";
+@import "teeth/2/27.css";
+@import "teeth/2/28.css";
+
+@import "teeth/3/38.css";
+@import "teeth/3/37.css";
+@import "teeth/3/36.css";
+@import "teeth/3/35.css";
+@import "teeth/3/34.css";
+@import "teeth/3/33.css";
+@import "teeth/3/32.css";
+@import "teeth/3/31.css";
+
+@import "teeth/4/41.css";
+@import "teeth/4/42.css";
+@import "teeth/4/43.css";
+@import "teeth/4/44.css";
+@import "teeth/4/45.css";
+@import "teeth/4/46.css";
+@import "teeth/4/47.css";
+@import "teeth/4/48.css";
+
+.tooth_hover_btn {
+	position: absolute;
+	z-index: 40;
+	line-height: 14.5px;
+	background-color: #ECECEC;
+	text-align: center;
+	font-family: "Arial Narrow", Sans-Serif;
+	font-weight: bold;
+	font-size: 14px;
+	-webkit-user-select: none; /* Chrome/Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+ */
+	cursor: pointer;
+}
+
+.tooth_hover_btn:hover {
+	background-color: #D3DFE7;
+}

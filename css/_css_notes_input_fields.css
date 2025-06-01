@@ -1,0 +1,190 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Positionen der Eingabefelder */
+
+.input_note {
+	position: absolute;
+	z-index: 70;
+	height: 17px;
+	border: none;
+	font-family: "Arial Narrow", Sans-Serif;
+	font-size: 14px;
+	text-align: center;
+	padding: 0;
+}
+
+.input_note:focus {
+	background-color: lightsteelblue;
+    border-radius: 5px;
+	}
+
+.ok_note_input input {
+	top: 907.8px;
+    outline: none;
+}
+
+#note_18_txt {
+	left: 288px;
+    width: 49.05px;
+}
+
+#note_17_txt {
+	left: 343px;
+    width: 49.05px;
+}
+
+#note_16_txt {
+	left: 397px;
+    width: 52px;
+}
+
+#note_15_txt {
+	left: 454px;
+    width: 39px;
+}
+
+#note_14_txt {
+	left: 497.5px;
+    width: 37.5px;
+}
+
+#note_13_txt {
+	left: 540px;
+    width: 37px;
+}
+
+#note_12_txt {
+	left: 581.5px;
+    width: 38.5px;
+}
+
+#note_11_txt {
+	left: 624.5px;
+    width: 41.5px;
+}
+
+#note_21_txt {
+	left: 690.5px;
+    width: 41.5px;
+}
+
+#note_22_txt {
+	left: 736.5px;
+    width: 38.5px;
+}
+
+#note_23_txt {
+	left: 780.5px;
+    width: 37px;
+}
+
+#note_24_txt {
+	left: 821.5px;
+    width: 37.5px;
+}
+
+#note_25_txt {
+	left: 864.5px;
+    width: 39px;
+}
+
+#note_26_txt {
+	left: 908.5px;
+    width: 52px;
+}
+
+#note_27_txt {
+	left: 965.5px;
+    width: 49.05px;
+}
+
+#note_28_txt {
+	left: 1019.5px;
+    width: 49.05px;
+}
+
+.uk_note_input input {
+	top: 967px;
+    outline: none;
+}
+
+#note_38_txt {
+	left: 1007.5px;
+    width: 59.5px;
+}
+
+#note_37_txt {
+	left: 946.5px;
+    width: 56.5px;
+}
+
+#note_36_txt {
+	left: 888px;
+    width: 54px;
+}
+
+#note_35_txt {
+	left: 845px;
+    width: 38px;
+}
+
+#note_34_txt {
+	left: 806px;
+    width: 35px;
+}
+
+#note_33_txt {
+	left: 764.5px;
+    width: 37px;
+}
+
+#note_32_txt {
+	left: 723.5px;
+    width: 37px;
+}
+
+#note_31_txt {
+	left: 684.5px;
+    width: 35px;
+}
+
+#note_41_txt {
+	left: 638.5px;
+    width: 35px;
+}
+
+#note_42_txt {
+	left: 596.5px;
+    width: 37px;
+}
+
+#note_43_txt {
+	left: 556px;
+    width: 37px;
+}
+
+#note_44_txt {
+	left: 515.5px;
+    width: 35px;
+}
+
+#note_45_txt {
+	left: 474px;
+    width: 38px;
+}
+
+#note_46_txt {
+	left: 415.5px;
+    width: 54px;
+}
+
+#note_47_txt {
+	left: 354.5px;
+    width: 56.5px;
+}
+
+#note_48_txt {
+	left: 290.5px;
+    width: 59.5px;
+}

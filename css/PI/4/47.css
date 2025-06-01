@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 47 bukkal */
+
+#PI_47_db_btn {
+	position: absolute;
+	z-index: 40;
+	width: 13.3px;
+	height: 13.95px;
+	left: 357.65px;
+	top: 1462.1px;
+}
+
+#PI_47_b_btn {
+	position: absolute;
+	z-index: 40;
+	width: 13.3px;
+	height: 13.95px;
+	left: 374.95px;
+	top: 1462.1px;
+}
+
+#PI_47_mb_btn {
+	position: absolute;
+	z-index: 40;
+	width: 13.3px;
+	height: 13.95px;
+	left: 392.2px;
+	top: 1462.1px;
+}
+
+#PI_47_db_rectangle {
+	position: relative;
+	top: 0px;
+	line-height: 13.95px; 
+	z-index: 30;
+	margin: auto;
+	text-align: center;
+	pointer-events: none;
+}
+
+#PI_47_b_rectangle {
+	position: relative;
+	top: 0px;
+	line-height: 13.95px; 
+	z-index: 30;
+	margin: auto;
+	text-align: center;
+	pointer-events: none;
+}
+
+#PI_47_mb_rectangle {
+	position: relative;
+	top: 0px;
+	line-height: 13.95px; 
+	z-index: 30;
+	margin: auto;
+	text-align: center;
+	pointer-events: none;
+}
+
+/* 47 lingual */
+
+#PI_47_dl_btn {
+	position: absolute;
+	z-index: 40;
+	width: 13.3px;
+	height: 13.95px;
+	left: 357.65px;
+	top: 1028.75px;
+}
+
+#PI_47_l_btn {
+	position: absolute;
+	z-index: 40;
+	width: 13.3px;
+	height: 13.95px;
+	left: 374.95px;
+	top: 1028.75px;
+}
+
+#PI_47_ml_btn {
+	position: absolute;
+	z-index: 40;
+	width: 13.3px;
+	height: 13.95px;
+	left: 392.2px;
+	top: 1028.75px;
+}
+
+#PI_47_dl_rectangle {
+	position: relative;
+	top: 0px;
+	line-height: 13.95px; 
+	z-index: 30;
+	margin: auto;
+	text-align: center;
+	pointer-events: none;
+}
+
+#PI_47_l_rectangle {
+	position: relative;
+	top: 0px;
+	line-height: 13.95px; 
+	z-index: 30;
+	margin: auto;
+	text-align: center;
+	pointer-events: none;
+}
+
+#PI_47_ml_rectangle {
+	position: relative;
+	top: 0px;
+	line-height: 13.95px; 
+	z-index: 30;
+	margin: auto;
+	text-align: center;
+	pointer-events: none;
+}

@@ -1,0 +1,383 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import "_css_teeth.css";
+@import "_css_mobility_input_fields.css";
+@import "_css_implants.css";
+@import "_css_furcations.css";
+@import "_css_BOP.css";
+@import "_css_PI.css";
+@import "_css_probing_input_fields.css";
+@import "_css_probing_polygons.css";
+@import "_css_notes_input_fields.css";
+@import "_css_modal.css";
+
+body {
+	margin-top: 0px;
+	margin-left: 0px;
+
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10+ and Edge */
+    user-select: none; /* Standard syntax */
+}
+
+@page {
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+/* Gesamtes Formular mit Eingabefelder */
+#form_periodontal_chart {
+	position: absolute;
+	z-index: 10;
+	top: 0px;
+	left: 0px;
+	width: 1200px;
+	height: 1600px;
+	margin: auto;
+	background: #FFFFFF;
+}
+
+#periodontal_chart_teeth {
+	position: absolute;
+	z-index: 10;
+	top: 0px;
+	left: 0px;
+	width: 1200px;
+	height: 1600px;
+	/* margin: auto; */
+	background: #FFFFFF;
+}
+
+#periodontal_chart_grids {
+	position: absolute;
+	z-index: 25;
+	top: 0px;
+	left: 0px;
+	width: 1200px;
+	height: 1600px;
+    /*pointer-events: none;*/
+    /* margin: auto; */
+}
+
+.input_data {
+	position: absolute;
+	z-index: 70;
+	height: 20px;
+	border: none;
+	font-family: "Arial", Regular, Sans-Serif;
+	font-size: 18px;
+	text-align: left;
+	padding: 0;
+    background: transparent;
+    outline: none;
+    /*background-color: green;*/
+}
+
+#input_date {
+	top: 160px;
+	left: 586px;
+	width: 138px;
+}
+
+#input_patient_last_name {
+	top: 211px;
+	left: 243px;
+	width: 212px;
+}
+
+#input_patient_first_name {
+	top: 211px;
+	left: 586px;
+	width: 212px;
+}
+
+#input_patient_dob {
+	top: 211px;
+	left: 950px;
+	width: 121px;
+}
+
+#input_reevaluation {
+    top: 261px;
+    left: 321.9px;
+    width: 430px;
+    font-size: 22px;
+    font-weight: bold;
+    height: 27px;
+}
+
+#input_clinician {
+	top: 265.5px;
+	left: 870px;
+	width: 201px;
+}
+
+.checkbox_btn {
+	position: absolute;
+	z-index: 40;
+	line-height: 30px;
+	background-color: #E7F3FD;
+    border: solid 1.5px #111111;
+	-webkit-user-select: none; /* Chrome/Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+ */
+	cursor: pointer;
+}
+
+.checkbox_btn:hover {
+	background-color: #D3DFE7;
+}
+
+.check_tab {
+	position: relative;
+	z-index: 50;
+    top: 0.5px;
+	line-height: 28px;
+	text-align: center;
+	pointer-events: none;
+}
+
+#initial_therapy {
+	position: absolute;
+	z-index: 40;
+	left: 79.85px;
+	top: 259px;
+	width: 28px;
+	height: 28px;
+}
+
+#reevaluation {
+	position: absolute;
+	z-index: 40;
+	left: 286px;
+	top: 259px;
+	width: 28px;
+	height: 28px;
+}
+
+.select_row_wrapper {
+	position: absolute;
+    margin: auto;
+	z-index: 40;
+	left: 129px;
+    top: 330px;
+    width: 150px;
+    height: 1230px;
+    /*background-color: white;*/
+    opacity: 0.2;
+}
+
+.select_row_btn {
+	position: relative;
+    margin: auto;
+	margin-right: 0px;
+	height: 15px;
+	-webkit-user-select: none; /* Chrome/Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+ */
+	cursor: pointer;
+}
+
+.select_row_btn:hover {
+	background-color: grey;
+	/*background-color: #D7D7FF;*/
+    /*border-bottom: 1px black solid;*/
+}
+
+#select_mobility_OK {
+	top: 5px;
+	width: 42px;
+}
+
+            #activate_BOP_b_OK {
+                top: 50px;
+                width: 107px;
+            }
+
+            #activate_PI_b_OK {
+                top: 54px;
+                width: 39px;
+            }
+
+#select_mg_b_OK {
+	top: 60px;
+	width: 83px;
+}
+
+#select_st_b_OK {
+	top: 65px;
+	width: 77px;
+}
+
+#select_mg_p_OK {
+	top: 404px;
+	width: 83px;
+}
+
+#select_st_p_OK {
+    top: 409px;
+	width: 77px;
+}
+
+            #activate_PI_p_OK {
+                top: 414px;
+                width: 39px;
+            }
+
+            #activate_BOP_p_OK {
+                top: 419px;
+                width: 107px;
+            }
+
+            #activate_BOP_l_UK {
+                top: 543px;
+                width: 107px;
+            }
+
+            #activate_PI_l_UK {
+                top: 548px;
+                width: 39px;
+            }
+
+#select_mg_l_UK {
+	top: 553px;
+	width: 83px;
+}
+
+#select_st_l_UK {
+	top: 558px;
+	width: 77px;
+}
+
+#select_mg_b_UK {
+	top: 897px;
+	width: 83px;
+}
+
+#select_st_b_UK {
+    top: 902px;
+	width: 77px;
+}
+
+            #activate_PI_b_UK {
+                top: 907px;
+                width: 39px;
+            }
+
+            #activate_BOP_b_UK {
+                top: 912px;
+                width: 107px;
+            }
+
+#select_mobility_UK {
+	top: 957px;
+	width: 42px;
+}
+
+.output_data {
+	position: absolute;
+	z-index: 70;
+	height: 20px;
+	border: none;
+	font-family: "Arial", Regular, Sans-Serif;
+    font-weight: bold;
+	font-size: 14px;
+	text-align: right;
+	padding: 0;
+    background: transparent;
+    outline: none;
+    /*background-color: green;*/
+}
+
+#output_mean_st {
+	top: 936.5px;
+	left: 465px;
+	width: 25px;
+}
+
+#output_mean_an {
+	top: 936.5px;
+	left: 686px;
+	width: 25px;
+}
+
+#output_mean_pi {
+	top: 936.5px;
+	left: 762px;
+	width: 25px;
+}
+
+#output_mean_bop {
+	top: 936.5px;
+	left: 871px;
+	width: 25px;
+}
+
+/* SVG für Polygone */
+.svg_periodontal_chart {
+	position: absolute;
+	z-index: 30;
+	left: 0px;
+	top: 0px;
+	width: 1200px;
+	height: 1600px;
+/*	background: #FFFFFF;
+	opacity: 0.5;
+*/
+}
+
+.menu_button {
+	position: absolute;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+	z-index: +100;
+	width: 100px;
+	top: 10px;
+    /*height: 40px;*/
+	background-color: #F9F9F9;
+	font-family: Arial, Sans-Serif;
+	font-size: 16px;
+	border-radius: 2px;
+	/*border: 1px solid #F9F9F9;*/
+    box-shadow: 3px 3px 5px #CCCCCC;
+	cursor: pointer;
+}
+
+.menu_button:hover {
+	background-color: #E8E8E8;
+}
+
+#menu_button_print {
+    left: 85px;
+}
+
+#menu_button_analysis {
+    left: 235px;
+}
+
+.menu_alert {
+    left: 235px;
+}
+
+#menu_button_settings {
+    left: 385px;
+}
+
+@media print {
+    #menu_button_print {
+        display: none;
+    }
+    #menu_alert {
+        display: none;
+    }
+    #menu_button_analysis {
+        display: none;
+    }
+    #menu_button_settings {
+        display: none;
+    }
+}

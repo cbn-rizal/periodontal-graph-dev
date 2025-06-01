@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import "furcations/18.css";
+@import "furcations/17.css";
+@import "furcations/16.css";
+@import "furcations/14.css";
+
+@import "furcations/24.css";
+@import "furcations/26.css";
+@import "furcations/27.css";
+@import "furcations/28.css";
+
+@import "furcations/38.css";
+@import "furcations/37.css";
+@import "furcations/36.css";
+
+@import "furcations/46.css";
+@import "furcations/47.css";
+@import "furcations/48.css";
+
+.furkation_hover_btn {
+	position: absolute;
+	z-index: 40;
+	line-height: 10px;
+	background-color: #ECECEC;
+	text-align: center;
+	-webkit-user-select: none; /* Chrome/Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+ */
+	cursor: pointer;
+}
+
+.furkation_hover_btn:hover {
+	background-color: #D3DFE7;
+}

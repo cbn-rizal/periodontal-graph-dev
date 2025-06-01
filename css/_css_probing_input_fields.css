@@ -1,0 +1,160 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import "mg/1/18.css";
+@import "mg/1/17.css";
+@import "mg/1/16.css";
+@import "mg/1/15.css";
+@import "mg/1/14.css";
+@import "mg/1/13.css";
+@import "mg/1/12.css";
+@import "mg/1/11.css";
+
+@import "mg/2/21.css";
+@import "mg/2/22.css";
+@import "mg/2/23.css";
+@import "mg/2/24.css";
+@import "mg/2/25.css";
+@import "mg/2/26.css";
+@import "mg/2/27.css";
+@import "mg/2/28.css";
+
+@import "mg/3/38.css";
+@import "mg/3/37.css";
+@import "mg/3/36.css";
+@import "mg/3/35.css";
+@import "mg/3/34.css";
+@import "mg/3/33.css";
+@import "mg/3/32.css";
+@import "mg/3/31.css";
+
+@import "mg/4/41.css";
+@import "mg/4/42.css";
+@import "mg/4/43.css";
+@import "mg/4/44.css";
+@import "mg/4/45.css";
+@import "mg/4/46.css";
+@import "mg/4/47.css";
+@import "mg/4/48.css";
+
+@import "st/1/18.css";
+@import "st/1/17.css";
+@import "st/1/16.css";
+@import "st/1/15.css";
+@import "st/1/14.css";
+@import "st/1/13.css";
+@import "st/1/12.css";
+@import "st/1/11.css";
+
+@import "st/2/21.css";
+@import "st/2/22.css";
+@import "st/2/23.css";
+@import "st/2/24.css";
+@import "st/2/25.css";
+@import "st/2/26.css";
+@import "st/2/27.css";
+@import "st/2/28.css";
+
+@import "st/3/38.css";
+@import "st/3/37.css";
+@import "st/3/36.css";
+@import "st/3/35.css";
+@import "st/3/34.css";
+@import "st/3/33.css";
+@import "st/3/32.css";
+@import "st/3/31.css";
+
+@import "st/4/41.css";
+@import "st/4/42.css";
+@import "st/4/43.css";
+@import "st/4/44.css";
+@import "st/4/45.css";
+@import "st/4/46.css";
+@import "st/4/47.css";
+@import "st/4/48.css";
+
+/* Positionen der Eingabefelder */
+
+.input_st {
+	position: absolute;
+	z-index: 70;
+	width: 15.2px;
+	height: 17px;
+	border: none;
+	font-family: "Arial Narrow", Sans-Serif;
+    font-stretch: extra-condensed;
+	font-size: 14px;
+	text-align: center;
+	padding: 0;
+	}
+
+.input_st:focus {
+	background-color: lightsteelblue;
+    border-radius: 5px;
+	}
+
+.ok_bukk_st_input input {
+	top: 454px;
+    background: transparent;
+    outline: none;
+}
+
+.ok_pal_st_input input {
+	top: 828px;
+    background: transparent;
+    outline: none;
+}
+
+.uk_ling_st_input input {
+	top: 1067px;
+    background: transparent;
+    outline: none;
+}
+
+.uk_bukk_st_input input {
+	top: 1440px;
+    background: transparent;
+    outline: none;
+}
+
+.input_mg {
+	position: absolute;
+	z-index: 70;
+	width: 15.2px;
+	height: 17px;
+	border: none;
+	font-family: "Arial Narrow", Sans-Serif;
+    font-stretch: extra-condensed;
+	font-size: 14px;
+	text-align: center;
+	padding: 0;
+}
+
+.input_mg:focus {
+	background-color: lightsteelblue;
+    border-radius: 5px;
+	}
+
+.ok_bukk_mg_input input {
+	top: 434px;
+    background: transparent;
+    outline: none;
+}
+
+.ok_pal_mg_input input {
+	top: 808px;
+    background: transparent;
+    outline: none;
+}
+
+.uk_ling_mg_input input {
+	top: 1047px;
+    background: transparent;
+    outline: none;
+}
+
+.uk_bukk_mg_input input {
+	top: 1420px;
+    background: transparent;
+    outline: none;
+}
