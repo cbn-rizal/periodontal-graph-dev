@@ -24,7 +24,7 @@ function select_mobility_OK() {
 		document.getElementById("mobility_23_txt").focus();
 	} else if (Tooth_24 == 1) {
 		document.getElementById("mobility_24_txt").focus();
-	} else if (Zahn_25 == 1) {
+	} else if (Tooth_25 == 1) {
 		document.getElementById("mobility_25_txt").focus();
 	} else if (Zahn_26 == 1) {
 		document.getElementById("mobility_26_txt").focus();
@@ -60,7 +60,7 @@ function select_mg_b_OK() {
 		document.getElementById("mg_23_mb_txt").focus();
 	} else if (Tooth_24 == 1) {
 		document.getElementById("mg_24_mb_txt").focus();
-	} else if (Zahn_25 == 1) {
+	} else if (Tooth_25 == 1) {
 		document.getElementById("mg_25_mb_txt").focus();
 	} else if (Zahn_26 == 1) {
 		document.getElementById("mg_26_mb_txt").focus();
@@ -96,7 +96,7 @@ function select_st_b_OK() {
 		document.getElementById("st_23_mb_txt").focus();
 	} else if (Tooth_24 == 1) {
 		document.getElementById("st_24_mb_txt").focus();
-	} else if (Zahn_25 == 1) {
+	} else if (Tooth_25 == 1) {
 		document.getElementById("st_25_mb_txt").focus();
 	} else if (Zahn_26 == 1) {
 		document.getElementById("st_26_mb_txt").focus();
@@ -132,7 +132,7 @@ function select_mg_p_OK() {
 		document.getElementById("mg_23_mp_txt").focus();
 	} else if (Tooth_24 == 1) {
 		document.getElementById("mg_24_mp_txt").focus();
-	} else if (Zahn_25 == 1) {
+	} else if (Tooth_25 == 1) {
 		document.getElementById("mg_25_mp_txt").focus();
 	} else if (Zahn_26 == 1) {
 		document.getElementById("mg_26_mp_txt").focus();
@@ -168,7 +168,7 @@ function select_st_p_OK() {
 		document.getElementById("st_23_mp_txt").focus();
 	} else if (Tooth_24 == 1) {
 		document.getElementById("st_24_mp_txt").focus();
-	} else if (Zahn_25 == 1) {
+	} else if (Tooth_25 == 1) {
 		document.getElementById("st_25_mp_txt").focus();
 	} else if (Zahn_26 == 1) {
 		document.getElementById("st_26_mp_txt").focus();
