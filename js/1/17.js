@@ -305,7 +305,7 @@ function toggle_tooth_17() {
             document.getElementById('polyline_mg_inter_18_17_p').style.display = 'block';            
         }
         
-        if (Tooth_17 == 1 && Zahn_16 == 1) {
+        if (Tooth_17 == 1 && Tooth_16 == 1) {
             document.getElementById('polygon_inter_17_16_b').style.display = 'block';            
             document.getElementById('polyline_an_inter_17_16_b').style.display = 'block';            
             document.getElementById('polyline_mg_inter_17_16_b').style.display = 'block';            
@@ -460,7 +460,7 @@ function toggle_tooth_17() {
             document.getElementById('polyline_mg_inter_18_17_p').style.display = 'block';            
         }
         
-        if (Tooth_17 == 1 && Zahn_16 == 1) {
+        if (Tooth_17 == 1 && Tooth_16 == 1) {
             document.getElementById('polygon_inter_17_16_b').style.display = 'block';            
             document.getElementById('polyline_an_inter_17_16_b').style.display = 'block';            
             document.getElementById('polyline_mg_inter_17_16_b').style.display = 'block';            
@@ -999,7 +999,7 @@ function change_probing_17() {
             x_mp_17 + ", " + y_mg_17_mp;
         document.getElementById("polyline_mg_17_p").setAttribute("points", string);
     }
-    if (Tooth_17 == 1 && Zahn_16 == 1) {
+    if (Tooth_17 == 1 && Tooth_16 == 1) {
 
         st_16_db = document.forms[0]["st_16_db"].value;
         mg_16_db = document.forms[0]["mg_16_db"].value;
