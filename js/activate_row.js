@@ -105,7 +105,7 @@ function activate_BOP_b_OK() {
 			document.getElementById('BOP_24_b_rectangle').style.display = 'none';
 			document.getElementById('BOP_24_mb_rectangle').style.display = 'none';				
 		}
-		if (Zahn_23 == 1) {
+		if (Tooth_23 == 1) {
 			BOP_23_db = 0;
 			BOP_23_b = 0;
 			BOP_23_mb = 0;
@@ -234,7 +234,7 @@ function activate_BOP_b_OK() {
 			document.getElementById('BOP_24_b_rectangle').style.display = 'block';
 			document.getElementById('BOP_24_mb_rectangle').style.display = 'block';				
 		}
-		if (Zahn_23 == 1) {
+		if (Tooth_23 == 1) {
 			BOP_23_db = 1;
 			BOP_23_b = 1;
 			BOP_23_mb = 1;
@@ -368,7 +368,7 @@ function activate_PI_b_OK() {
 			document.getElementById('PI_24_b_rectangle').style.display = 'none';
 			document.getElementById('PI_24_mb_rectangle').style.display = 'none';				
 		}
-		if (Zahn_23 == 1) {
+		if (Tooth_23 == 1) {
 			PI_23_db = 0;
 			PI_23_b = 0;
 			PI_23_mb = 0;
@@ -497,7 +497,7 @@ function activate_PI_b_OK() {
 			document.getElementById('PI_24_b_rectangle').style.display = 'block';
 			document.getElementById('PI_24_mb_rectangle').style.display = 'block';				
 		}
-		if (Zahn_23 == 1) {
+		if (Tooth_23 == 1) {
 			PI_23_db = 1;
 			PI_23_b = 1;
 			PI_23_mb = 1;
@@ -631,7 +631,7 @@ function activate_BOP_p_OK() {
 			document.getElementById('BOP_24_p_rectangle').style.display = 'none';
 			document.getElementById('BOP_24_mp_rectangle').style.display = 'none';				
 		}
-		if (Zahn_23 == 1) {
+		if (Tooth_23 == 1) {
 			BOP_23_dp = 0;
 			BOP_23_p = 0;
 			BOP_23_mp = 0;
@@ -760,7 +760,7 @@ function activate_BOP_p_OK() {
 			document.getElementById('BOP_24_p_rectangle').style.display = 'block';
 			document.getElementById('BOP_24_mp_rectangle').style.display = 'block';				
 		}
-		if (Zahn_23 == 1) {
+		if (Tooth_23 == 1) {
 			BOP_23_dp = 1;
 			BOP_23_p = 1;
 			BOP_23_mp = 1;
@@ -895,7 +895,7 @@ function activate_PI_p_OK() {
 			document.getElementById('PI_24_p_rectangle').style.display = 'none';
 			document.getElementById('PI_24_mp_rectangle').style.display = 'none';				
 		}
-		if (Zahn_23 == 1) {
+		if (Tooth_23 == 1) {
 			PI_23_dp = 0;
 			PI_23_p = 0;
 			PI_23_mp = 0;
@@ -1024,7 +1024,7 @@ function activate_PI_p_OK() {
 			document.getElementById('PI_24_p_rectangle').style.display = 'block';
 			document.getElementById('PI_24_mp_rectangle').style.display = 'block';				
 		}
-		if (Zahn_23 == 1) {
+		if (Tooth_23 == 1) {
 			PI_23_dp = 1;
 			PI_23_p = 1;
 			PI_23_mp = 1;
