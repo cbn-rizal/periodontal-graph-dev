@@ -1,6 +1,6 @@
 // Calculations
 function calc() {
-    var anz_zaehne_1 = Tooth_18 + Tooth_17 + Tooth_16 + Tooth_15 + Tooth_14 + Tooth_13 + Zahn_12 + Zahn_11;
+    var anz_zaehne_1 = Tooth_18 + Tooth_17 + Tooth_16 + Tooth_15 + Tooth_14 + Tooth_13 + Tooth_12 + Zahn_11;
     var anz_zaehne_2 = Zahn_28 + Zahn_27 + Zahn_26 + Zahn_25 + Zahn_24 + Zahn_23 + Zahn_22 + Zahn_21;
     var anz_zaehne_3 = Zahn_38 + Zahn_37 + Zahn_36 + Zahn_35 + Zahn_34 + Zahn_33 + Zahn_32 + Zahn_31;
     var anz_zaehne_4 = Zahn_48 + Zahn_47 + Zahn_46 + Zahn_45 + Zahn_44 + Zahn_43 + Zahn_42 + Zahn_41;
@@ -14,7 +14,7 @@ function calc() {
     if (Tooth_15 == 1) { sum_st_15 = st_15_db*1 + st_15_b*1 + st_15_mb*1 + st_15_dp*1 + st_15_p*1 + st_15_mp*1; } else { sum_st_15 = 0; }
     if (Tooth_14 == 1) { sum_st_14 = st_14_db*1 + st_14_b*1 + st_14_mb*1 + st_14_dp*1 + st_14_p*1 + st_14_mp*1; } else { sum_st_14 = 0; }
     if (Tooth_13 == 1) { sum_st_13 = st_13_db*1 + st_13_b*1 + st_13_mb*1 + st_13_dp*1 + st_13_p*1 + st_13_mp*1; } else { sum_st_13 = 0; }
-    if (Zahn_12 == 1) { sum_st_12 = st_12_db*1 + st_12_b*1 + st_12_mb*1 + st_12_dp*1 + st_12_p*1 + st_12_mp*1; } else { sum_st_12 = 0; }
+    if (Tooth_12 == 1) { sum_st_12 = st_12_db*1 + st_12_b*1 + st_12_mb*1 + st_12_dp*1 + st_12_p*1 + st_12_mp*1; } else { sum_st_12 = 0; }
     if (Zahn_11 == 1) { sum_st_11 = st_11_db*1 + st_11_b*1 + st_11_mb*1 + st_11_dp*1 + st_11_p*1 + st_11_mp*1; } else { sum_st_11 = 0; }
 
     if (Zahn_28 == 1) { sum_st_28 = st_28_db*1 + st_28_b*1 + st_28_mb*1 + st_28_dp*1 + st_28_p*1 + st_28_mp*1; } else { sum_st_28 = 0; }
@@ -65,7 +65,7 @@ function calc() {
     if (Tooth_15 == 1) { sum_an_15 = (mg_15_db*1 - st_15_db*1) + (mg_15_b*1 - st_15_b*1) + (mg_15_mb*1 - st_15_mb*1) + (mg_15_dp*1 - st_15_dp*1) + (mg_15_p*1 - st_15_p*1) + (mg_15_mp*1 - st_15_mp*1); } else { sum_an_15 = 0; }
     if (Tooth_14 == 1) { sum_an_14 = (mg_14_db*1 - st_14_db*1) + (mg_14_b*1 - st_14_b*1) + (mg_14_mb*1 - st_14_mb*1) + (mg_14_dp*1 - st_14_dp*1) + (mg_14_p*1 - st_14_p*1) + (mg_14_mp*1 - st_14_mp*1); } else { sum_an_14 = 0; }
     if (Tooth_13 == 1) { sum_an_13 = (mg_13_db*1 - st_13_db*1) + (mg_13_b*1 - st_13_b*1) + (mg_13_mb*1 - st_13_mb*1) + (mg_13_dp*1 - st_13_dp*1) + (mg_13_p*1 - st_13_p*1) + (mg_13_mp*1 - st_13_mp*1); } else { sum_an_13 = 0; }
-    if (Zahn_12 == 1) { sum_an_12 = (mg_12_db*1 - st_12_db*1) + (mg_12_b*1 - st_12_b*1) + (mg_12_mb*1 - st_12_mb*1) + (mg_12_dp*1 - st_12_dp*1) + (mg_12_p*1 - st_12_p*1) + (mg_12_mp*1 - st_12_mp*1); } else { sum_an_12 = 0; }
+    if (Tooth_12 == 1) { sum_an_12 = (mg_12_db*1 - st_12_db*1) + (mg_12_b*1 - st_12_b*1) + (mg_12_mb*1 - st_12_mb*1) + (mg_12_dp*1 - st_12_dp*1) + (mg_12_p*1 - st_12_p*1) + (mg_12_mp*1 - st_12_mp*1); } else { sum_an_12 = 0; }
     if (Zahn_11 == 1) { sum_an_11 = (mg_11_db*1 - st_11_db*1) + (mg_11_b*1 - st_11_b*1) + (mg_11_mb*1 - st_11_mb*1) + (mg_11_dp*1 - st_11_dp*1) + (mg_11_p*1 - st_11_p*1) + (mg_11_mp*1 - st_11_mp*1); } else { sum_an_11 = 0; }
 
     if (Zahn_28 == 1) { sum_an_28 = (mg_28_db*1 - st_28_db*1) + (mg_28_b*1 - st_28_b*1) + (mg_28_mb*1 - st_28_mb*1) + (mg_28_dp*1 - st_28_dp*1) + (mg_28_p*1 - st_28_p*1) + (mg_28_mp*1 - st_28_mp*1); } else { sum_an_28 = 0; }
@@ -116,7 +116,7 @@ function calc() {
     if (Tooth_15 == 1) { anz_pi_15 = PI_15_db + PI_15_b + PI_15_mb + PI_15_dp + PI_15_p + PI_15_mp; } else { anz_pi_15 = 0; }
     if (Tooth_14 == 1) { anz_pi_14 = PI_14_db + PI_14_b + PI_14_mb + PI_14_dp + PI_14_p + PI_14_mp; } else { anz_pi_14 = 0; }
     if (Tooth_13 == 1) { anz_pi_13 = PI_13_db + PI_13_b + PI_13_mb + PI_13_dp + PI_13_p + PI_13_mp; } else { anz_pi_13 = 0; }
-    if (Zahn_12 == 1) { anz_pi_12 = PI_12_db + PI_12_b + PI_12_mb + PI_12_dp + PI_12_p + PI_12_mp; } else { anz_pi_12 = 0; }
+    if (Tooth_12 == 1) { anz_pi_12 = PI_12_db + PI_12_b + PI_12_mb + PI_12_dp + PI_12_p + PI_12_mp; } else { anz_pi_12 = 0; }
     if (Zahn_11 == 1) { anz_pi_11 = PI_11_db + PI_11_b + PI_11_mb + PI_11_dp + PI_11_p + PI_11_mp; } else { anz_pi_11 = 0; }
 
     if (Zahn_28 == 1) { anz_pi_28 = PI_28_db + PI_28_b + PI_28_mb + PI_28_dp + PI_28_p + PI_28_mp; } else { anz_pi_28 = 0; }
@@ -167,7 +167,7 @@ function calc() {
     if (Tooth_15 == 1) { anz_bop_15 = BOP_15_db + BOP_15_b + BOP_15_mb + BOP_15_dp + BOP_15_p + BOP_15_mp; } else { anz_bop_15 = 0; }
     if (Tooth_14 == 1) { anz_bop_14 = BOP_14_db + BOP_14_b + BOP_14_mb + BOP_14_dp + BOP_14_p + BOP_14_mp; } else { anz_bop_14 = 0; }
     if (Tooth_13 == 1) { anz_bop_13 = BOP_13_db + BOP_13_b + BOP_13_mb + BOP_13_dp + BOP_13_p + BOP_13_mp; } else { anz_bop_13 = 0; }
-    if (Zahn_12 == 1) { anz_bop_12 = BOP_12_db + BOP_12_b + BOP_12_mb + BOP_12_dp + BOP_12_p + BOP_12_mp; } else { anz_bop_12 = 0; }
+    if (Tooth_12 == 1) { anz_bop_12 = BOP_12_db + BOP_12_b + BOP_12_mb + BOP_12_dp + BOP_12_p + BOP_12_mp; } else { anz_bop_12 = 0; }
     if (Zahn_11 == 1) { anz_bop_11 = BOP_11_db + BOP_11_b + BOP_11_mb + BOP_11_dp + BOP_11_p + BOP_11_mp; } else { anz_bop_11 = 0; }
 
     if (Zahn_28 == 1) { anz_bop_28 = BOP_28_db + BOP_28_b + BOP_28_mb + BOP_28_dp + BOP_28_p + BOP_28_mp; } else { anz_bop_28 = 0; }
