@@ -1054,7 +1054,7 @@ function activate_PI_p_OK() {
 // Activate or inactivate entire row
 function activate_BOP_b_UK() {
     if (event.shiftKey) {
-		if (Zahn_48 == 1) {
+		if (Tooth_48 == 1) {
 			BOP_48_db = 0;
 			BOP_48_b = 0;
 			BOP_48_mb = 0;
@@ -1183,7 +1183,7 @@ function activate_BOP_b_UK() {
 			document.getElementById('BOP_31_mb_rectangle').style.display = 'none';				
 		}
 	} else {
-		if (Zahn_48 == 1) {
+		if (Tooth_48 == 1) {
 			BOP_48_db = 1;
 			BOP_48_b = 1;
 			BOP_48_mb = 1;
@@ -1317,7 +1317,7 @@ function activate_BOP_b_UK() {
 // Activate or inactivate entire row
 function activate_PI_b_UK() {
     if (event.shiftKey) {
-		if (Zahn_48 == 1) {
+		if (Tooth_48 == 1) {
 			PI_48_db = 0;
 			PI_48_b = 0;
 			PI_48_mb = 0;
@@ -1447,7 +1447,7 @@ function activate_PI_b_UK() {
 			document.getElementById('PI_31_mb_rectangle').style.display = 'none';				
 		}
 	} else {
-		if (Zahn_48 == 1) {
+		if (Tooth_48 == 1) {
 			PI_48_db = 1;
 			PI_48_b = 1;
 			PI_48_mb = 1;
@@ -1581,7 +1581,7 @@ function activate_PI_b_UK() {
 // Activate or inactivate entire row
 function activate_BOP_l_UK() {
     if (event.shiftKey) {
-		if (Zahn_48 == 1) {
+		if (Tooth_48 == 1) {
 			BOP_48_dl = 0;
 			BOP_48_l = 0;
 			BOP_48_ml = 0;
@@ -1711,7 +1711,7 @@ function activate_BOP_l_UK() {
 			document.getElementById('BOP_31_ml_rectangle').style.display = 'none';				
 		}
 	} else {
-		if (Zahn_48 == 1) {
+		if (Tooth_48 == 1) {
 			BOP_48_dl = 1;
 			BOP_48_l = 1;
 			BOP_48_ml = 1;
@@ -1845,7 +1845,7 @@ function activate_BOP_l_UK() {
 // Activate or inactivate entire row
 function activate_PI_l_UK() {
     if (event.shiftKey) {
-		if (Zahn_48 == 1) {
+		if (Tooth_48 == 1) {
 			PI_48_dl = 0;
 			PI_48_l = 0;
 			PI_48_ml = 0;
@@ -1975,7 +1975,7 @@ function activate_PI_l_UK() {
 			document.getElementById('PI_31_ml_rectangle').style.display = 'none';				
 		}
 	} else {
-		if (Zahn_48 == 1) {
+		if (Tooth_48 == 1) {
 			PI_48_dl = 1;
 			PI_48_l = 1;
 			PI_48_ml = 1;

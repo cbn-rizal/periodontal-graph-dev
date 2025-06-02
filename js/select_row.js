@@ -180,7 +180,7 @@ function select_st_p_OK() {
 }
 
 function select_mg_l_UK() {
-    if (Zahn_48 == 1) {
+    if (Tooth_48 == 1) {
 		document.getElementById("mg_48_dl_txt").focus();
 	} else if (Tooth_47 == 1) {
 		document.getElementById("mg_47_dl_txt").focus();
@@ -216,7 +216,7 @@ function select_mg_l_UK() {
 }
 
 function select_st_l_UK() {
-    if (Zahn_48 == 1) {
+    if (Tooth_48 == 1) {
 		document.getElementById("st_48_dl_txt").focus();
 	} else if (Tooth_47 == 1) {
 		document.getElementById("st_47_dl_txt").focus();
@@ -252,7 +252,7 @@ function select_st_l_UK() {
 }
 
 function select_mg_b_UK() {
-    if (Zahn_48 == 1) {
+    if (Tooth_48 == 1) {
 		document.getElementById("mg_48_db_txt").focus();
 	} else if (Tooth_47 == 1) {
 		document.getElementById("mg_47_db_txt").focus();
@@ -288,7 +288,7 @@ function select_mg_b_UK() {
 }
 
 function select_st_b_UK() {
-    if (Zahn_48 == 1) {
+    if (Tooth_48 == 1) {
 		document.getElementById("st_48_db_txt").focus();
 	} else if (Tooth_47 == 1) {
 		document.getElementById("st_47_db_txt").focus();
@@ -324,7 +324,7 @@ function select_st_b_UK() {
 }
 
 function select_mobility_UK() {
-    if (Zahn_48 == 1) {
+    if (Tooth_48 == 1) {
 		document.getElementById("mobility_48_txt").focus();
 	} else if (Tooth_47 == 1) {
 		document.getElementById("mobility_47_txt").focus();
