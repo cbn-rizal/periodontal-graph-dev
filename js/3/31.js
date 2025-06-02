@@ -1,5 +1,5 @@
 	// Definition der Variablen fÃ¼r das Formular
-    var Zahn_31 = 1;
+    var Tooth_31 = 1;
     var Implantat_31 = 0;
     var BOP_31_db = 0;
     var BOP_31_b = 0;
@@ -27,7 +27,7 @@
     var st_31_ml = 0;
 
 function clear_data_31() {
-    if (Zahn_31 == 1) {
+    if (Tooth_31 == 1) {
         mg_31_db = 0;
         mg_31_b = 0;
         mg_31_mb = 0;
@@ -111,8 +111,8 @@ function clear_data_31() {
 }
 
 function toggle_tooth_31() {
-    if (Zahn_31 === 1) {
-        Zahn_31 = 0;
+    if (Tooth_31 === 1) {
+        Tooth_31 = 0;
         document.getElementById('tooth_line_31_b').style.display = 'block';
         document.getElementById('tooth_line_31_l').style.display = 'block';
         
@@ -188,7 +188,7 @@ function toggle_tooth_31() {
         document.getElementById('polyline_mg_inter_32_31_l').style.display = 'none';            
     }
     else if (Implantat_31 !== 1) {
-        Zahn_31 = 1;
+        Tooth_31 = 1;
         document.getElementById('tooth_line_31_b').style.display = 'none';
         document.getElementById('tooth_line_31_l').style.display = 'none';
 
@@ -222,7 +222,7 @@ function toggle_tooth_31() {
         document.getElementById('polyline_an_31_l').style.display = 'block';
         document.getElementById('polyline_mg_31_l').style.display = 'block';
 
-        if (Tooth_32 == 1 && Zahn_31 == 1) {
+        if (Tooth_32 == 1 && Tooth_31 == 1) {
             document.getElementById('polygon_inter_32_31_b').style.display = 'block';            
             document.getElementById('polyline_an_inter_32_31_b').style.display = 'block';            
             document.getElementById('polyline_mg_inter_32_31_b').style.display = 'block';            
@@ -287,7 +287,7 @@ function toggle_tooth_31() {
         }
     }		
     else if (Implantat_31 == 1) {
-        Zahn_31 = 1;
+        Tooth_31 = 1;
         document.getElementById('tooth_line_31_b').style.display = 'none';
         document.getElementById('tooth_line_31_l').style.display = 'none';
 
@@ -324,7 +324,7 @@ function toggle_tooth_31() {
         document.getElementById('polyline_an_31_l').style.display = 'block';
         document.getElementById('polyline_mg_31_l').style.display = 'block';
 
-        if (Tooth_32 == 1 && Zahn_31 == 1) {
+        if (Tooth_32 == 1 && Tooth_31 == 1) {
             document.getElementById('polygon_inter_32_31_b').style.display = 'block';            
             document.getElementById('polyline_an_inter_32_31_b').style.display = 'block';            
             document.getElementById('polyline_mg_inter_32_31_b').style.display = 'block';            
@@ -540,7 +540,7 @@ function toggle_PI_31_ml() {
 }
 
 function change_probing_31() {
-    if (Zahn_31 == 1) {
+    if (Tooth_31 == 1) {
         
     // Variablen aus dem Formular
         st_31_db = document.forms[0]["st_31_db"].value;
@@ -647,7 +647,7 @@ function change_probing_31() {
             x_ml_31 + ", " + y_mg_31_ml;
         document.getElementById("polyline_mg_31_l").setAttribute("points", string);
     }
-    if (Tooth_32 == 1 && Zahn_31 == 1) {
+    if (Tooth_32 == 1 && Tooth_31 == 1) {
 
         st_32_mb = document.forms[0]["st_32_mb"].value;
         mg_32_mb = document.forms[0]["mg_32_mb"].value;
