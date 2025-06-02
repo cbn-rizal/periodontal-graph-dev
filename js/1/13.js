@@ -232,7 +232,7 @@ function toggle_tooth_13() {
         document.getElementById('polyline_an_13_p').style.display = 'block';
         document.getElementById('polyline_mg_13_p').style.display = 'block';
 
-        if (Zahn_14 == 1 && Zahn_13 == 1) {
+        if (Tooth_14 == 1 && Zahn_13 == 1) {
             document.getElementById('polygon_inter_14_13_b').style.display = 'block';            
             document.getElementById('polyline_an_inter_14_13_b').style.display = 'block';            
             document.getElementById('polyline_mg_inter_14_13_b').style.display = 'block';            
@@ -344,7 +344,7 @@ function toggle_tooth_13() {
         document.getElementById('polyline_an_13_p').style.display = 'block';
         document.getElementById('polyline_mg_13_p').style.display = 'block';
 
-        if (Zahn_14 == 1 && Zahn_13 == 1) {
+        if (Tooth_14 == 1 && Zahn_13 == 1) {
             document.getElementById('polygon_inter_14_13_b').style.display = 'block';            
             document.getElementById('polyline_an_inter_14_13_b').style.display = 'block';            
             document.getElementById('polyline_mg_inter_14_13_b').style.display = 'block';            
@@ -741,7 +741,7 @@ function change_probing_13() {
             x_dp_12 + ", " + y_mg_12_dp;
         document.getElementById("polyline_mg_inter_13_12_p").setAttribute("points", string);
     }
-    if (Zahn_14 == 1 && Zahn_13 == 1) {
+    if (Tooth_14 == 1 && Zahn_13 == 1) {
 
         st_14_mb = document.forms[0]["st_14_mb"].value;
         mg_14_mb = document.forms[0]["mg_14_mb"].value;
