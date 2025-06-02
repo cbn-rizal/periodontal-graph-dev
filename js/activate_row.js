@@ -9,7 +9,7 @@ function activate_BOP_b_OK() {
 			document.getElementById('BOP_18_b_rectangle').style.display = 'none';
 			document.getElementById('BOP_18_mb_rectangle').style.display = 'none';
 		}
-		if (Zahn_17 == 1) {
+		if (Tooth_17 == 1) {
 			BOP_17_db = 0;
 			BOP_17_b = 0;
 			BOP_17_mb = 0;
@@ -138,7 +138,7 @@ function activate_BOP_b_OK() {
 			document.getElementById('BOP_18_b_rectangle').style.display = 'block';
 			document.getElementById('BOP_18_mb_rectangle').style.display = 'block';
 		}
-		if (Zahn_17 == 1) {
+		if (Tooth_17 == 1) {
 			BOP_17_db = 1;
 			BOP_17_b = 1;
 			BOP_17_mb = 1;
@@ -272,7 +272,7 @@ function activate_PI_b_OK() {
 			document.getElementById('PI_18_b_rectangle').style.display = 'none';
 			document.getElementById('PI_18_mb_rectangle').style.display = 'none';
 		}
-		if (Zahn_17 == 1) {
+		if (Tooth_17 == 1) {
 			PI_17_db = 0;
 			PI_17_b = 0;
 			PI_17_mb = 0;
@@ -401,7 +401,7 @@ function activate_PI_b_OK() {
 			document.getElementById('PI_18_b_rectangle').style.display = 'block';
 			document.getElementById('PI_18_mb_rectangle').style.display = 'block';
 		}
-		if (Zahn_17 == 1) {
+		if (Tooth_17 == 1) {
 			PI_17_db = 1;
 			PI_17_b = 1;
 			PI_17_mb = 1;
@@ -535,7 +535,7 @@ function activate_BOP_p_OK() {
 			document.getElementById('BOP_18_p_rectangle').style.display = 'none';
 			document.getElementById('BOP_18_mp_rectangle').style.display = 'none';
 		}
-		if (Zahn_17 == 1) {
+		if (Tooth_17 == 1) {
 			BOP_17_dp = 0;
 			BOP_17_p = 0;
 			BOP_17_mp = 0;
@@ -664,7 +664,7 @@ function activate_BOP_p_OK() {
 			document.getElementById('BOP_18_p_rectangle').style.display = 'block';
 			document.getElementById('BOP_18_mp_rectangle').style.display = 'block';
 		}
-		if (Zahn_17 == 1) {
+		if (Tooth_17 == 1) {
 			BOP_17_dp = 1;
 			BOP_17_p = 1;
 			BOP_17_mp = 1;
@@ -798,7 +798,7 @@ function activate_PI_p_OK() {
 			document.getElementById('PI_18_p_rectangle').style.display = 'none';
 			document.getElementById('PI_18_mp_rectangle').style.display = 'none';
 		}
-		if (Zahn_17 == 1) {
+		if (Tooth_17 == 1) {
 			PI_17_dp = 0;
 			PI_17_p = 0;
 			PI_17_mp = 0;
@@ -928,7 +928,7 @@ function activate_PI_p_OK() {
 			document.getElementById('PI_18_p_rectangle').style.display = 'block';
 			document.getElementById('PI_18_mp_rectangle').style.display = 'block';
 		}
-		if (Zahn_17 == 1) {
+		if (Tooth_17 == 1) {
 			PI_17_dp = 1;
 			PI_17_p = 1;
 			PI_17_mp = 1;
