@@ -3,7 +3,7 @@
 
 /* 45 */
 
-#implantat_45_btn {
+#implant_45_btn {
 	position: absolute;
 	z-index: 40;
 	left: 474.4px;
@@ -19,11 +19,11 @@
 	cursor: pointer;
 }
 
-#implantat_45_btn:hover {
+#implant_45_btn:hover {
 	background-color: #D3DFE7;
 }
 
-#implantat_45_tab {
+#implant_45_tab {
 	position: relative;
 	z-index: 50;
     top: 0.2px;
@@ -32,7 +32,7 @@
 	pointer-events: none;
 }
 
-#implantat_45_b_image {
+#implant_45_b_image {
 	position: absolute;
 	z-index: 20;
 	left: 480px;
@@ -42,7 +42,7 @@
 	pointer-events: none;
 }
 
-#implantat_45_l_image {
+#implant_45_l_image {
 	position: absolute;
 	z-index: 20;
 	left: 480px;

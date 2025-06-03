@@ -3,7 +3,7 @@
 
 /* 47 */
 
-#implantat_47_btn {
+#implant_47_btn {
 	position: absolute;
 	z-index: 40;
 	left: 354.5px;
@@ -19,11 +19,11 @@
 	cursor: pointer;
 }
 
-#implantat_47_btn:hover {
+#implant_47_btn:hover {
 	background-color: #D3DFE7;
 }
 
-#implantat_47_tab {
+#implant_47_tab {
 	position: relative;
 	z-index: 50;
     top: 0.2px;
@@ -32,7 +32,7 @@
 	pointer-events: none;
 }
 
-#implantat_47_b_image {
+#implant_47_b_image {
 	position: absolute;
 	z-index: 20;
 	left: 351px;
@@ -42,7 +42,7 @@
 	pointer-events: none;
 }
 
-#implantat_47_l_image {
+#implant_47_l_image {
 	position: absolute;
 	z-index: 20;
 	left: 355px;

@@ -3,7 +3,7 @@
 
 /* 36 */
 
-#implantat_36_btn {
+#implant_36_btn {
 	position: absolute;
 	z-index: 40;
 	left: 889px;
@@ -19,11 +19,11 @@
 	cursor: pointer;
 }
 
-#implantat_36_btn:hover {
+#implant_36_btn:hover {
 	background-color: #D3DFE7;
 }
 
-#implantat_36_tab {
+#implant_36_tab {
 	position: relative;
 	z-index: 50;
     top: 0.2px;
@@ -32,7 +32,7 @@
 	pointer-events: none;
 }
 
-#implantat_36_b_image {
+#implant_36_b_image {
 	position: absolute;
 	z-index: 20;
 	left: 879px;
@@ -42,7 +42,7 @@
 	pointer-events: none;
 }
 
-#implantat_36_l_image {
+#implant_36_l_image {
 	position: absolute;
 	z-index: 20;
 	left: 880px;

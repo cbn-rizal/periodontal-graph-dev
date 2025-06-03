@@ -3,7 +3,7 @@
     var Furcation_27_b = 0;
     var Furcation_27_dp = 0;
     var Furcation_27_mp = 0;
-    var Implantat_27 = 0;
+    var Implant_27 = 0;
     var BOP_27_db = 0;
     var BOP_27_b = 0;
     var BOP_27_mb = 0;
@@ -149,10 +149,10 @@ function toggle_tooth_27() {
         
         document.getElementById('mobility_27_txt').style.display = 'none';
         
-        document.getElementById('implantat_27_btn').style.display = 'none';
-        document.getElementById('implantat_27_tab').style.display = 'none';
-        document.getElementById('implantat_27_b_image').style.display = 'none';
-        document.getElementById('implantat_27_p_image').style.display = 'none';
+        document.getElementById('implant_27_btn').style.display = 'none';
+        document.getElementById('implant_27_tab').style.display = 'none';
+        document.getElementById('implant_27_b_image').style.display = 'none';
+        document.getElementById('implant_27_p_image').style.display = 'none';
         
         document.getElementById('furcation_27_b_btn').style.display = 'none';
         document.getElementById('furcation_27_dp_btn').style.display = 'none';
@@ -256,14 +256,14 @@ function toggle_tooth_27() {
         
         document.getElementById('note_27_txt').style.display = 'none';
     }
-    else if (Implantat_27 !== 1) {
+    else if (Implant_27 !== 1) {
         Tooth_27 = 1;
         document.getElementById('tooth_line_27_b').style.display = 'none';
         document.getElementById('tooth_line_27_p').style.display = 'none';
 
         document.getElementById('mobility_27_txt').style.display = 'block';
 
-        document.getElementById('implantat_27_btn').style.display = 'block';
+        document.getElementById('implant_27_btn').style.display = 'block';
 
         document.getElementById('furcation_27_b_btn').style.display = 'block';
         document.getElementById('furcation_27_dp_btn').style.display = 'block';
@@ -412,7 +412,7 @@ function toggle_tooth_27() {
             document.getElementById('PI_27_mp_rectangle').style.display = 'block';
         }
     }		
-    else if (Implantat_27 == 1) {
+    else if (Implant_27 == 1) {
         Tooth_27 = 1;
         document.getElementById('tooth_line_27_b').style.display = 'none';
         document.getElementById('tooth_line_27_p').style.display = 'none';
@@ -421,10 +421,10 @@ function toggle_tooth_27() {
         
         document.getElementById('note_27_txt').style.display = 'block';
 
-        document.getElementById('implantat_27_btn').style.display = 'block';
-        document.getElementById('implantat_27_tab').style.display = 'block';
-        document.getElementById('implantat_27_b_image').style.display = 'block';
-        document.getElementById('implantat_27_p_image').style.display = 'block';
+        document.getElementById('implant_27_btn').style.display = 'block';
+        document.getElementById('implant_27_tab').style.display = 'block';
+        document.getElementById('implant_27_b_image').style.display = 'block';
+        document.getElementById('implant_27_p_image').style.display = 'block';
 
         document.getElementById('mg_27_db_txt').style.display = 'block';
         document.getElementById('mg_27_b_txt').style.display = 'block';
@@ -527,12 +527,12 @@ function toggle_tooth_27() {
 }
 
 function toggle_implant_27() {
-    if (Implantat_27 == 0) {
-        Implantat_27 = 1;
+    if (Implant_27 == 0) {
+        Implant_27 = 1;
         
-        document.getElementById('implantat_27_b_image').style.display = 'block';
-        document.getElementById('implantat_27_p_image').style.display = 'block';
-        document.getElementById('implantat_27_tab').style.display = 'block';
+        document.getElementById('implant_27_b_image').style.display = 'block';
+        document.getElementById('implant_27_p_image').style.display = 'block';
+        document.getElementById('implant_27_tab').style.display = 'block';
         
         document.getElementById('furcation_27_b_btn').style.display = 'none';
         document.getElementById('furcation_27_dp_btn').style.display = 'none';
@@ -563,11 +563,11 @@ function toggle_implant_27() {
         document.getElementById('furcation_3_27_mp_tab').style.display = 'none';
     }
     else {
-        Implantat_27 = 0;
+        Implant_27 = 0;
         
-        document.getElementById('implantat_27_b_image').style.display = 'none';
-        document.getElementById('implantat_27_p_image').style.display = 'none';
-        document.getElementById('implantat_27_tab').style.display = 'none';
+        document.getElementById('implant_27_b_image').style.display = 'none';
+        document.getElementById('implant_27_p_image').style.display = 'none';
+        document.getElementById('implant_27_tab').style.display = 'none';
         
         document.getElementById('furcation_27_b_btn').style.display = 'block';
         document.getElementById('furcation_27_dp_btn').style.display = 'block';

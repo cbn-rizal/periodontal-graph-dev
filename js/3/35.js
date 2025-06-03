@@ -1,6 +1,6 @@
 	// Definition der Variablen fÃ¼r das Formular
     var Tooth_35 = 1;
-    var Implantat_35 = 0;
+    var Implant_35 = 0;
     var BOP_35_db = 0;
     var BOP_35_b = 0;
     var BOP_35_mb = 0;
@@ -118,10 +118,10 @@ function toggle_tooth_35() {
         
         document.getElementById('mobility_35_txt').style.display = 'none';
         
-        document.getElementById('implantat_35_btn').style.display = 'none';
-        document.getElementById('implantat_35_tab').style.display = 'none';
-        document.getElementById('implantat_35_b_image').style.display = 'none';
-        document.getElementById('implantat_35_l_image').style.display = 'none';
+        document.getElementById('implant_35_btn').style.display = 'none';
+        document.getElementById('implant_35_tab').style.display = 'none';
+        document.getElementById('implant_35_b_image').style.display = 'none';
+        document.getElementById('implant_35_l_image').style.display = 'none';
         
         document.getElementById('mg_35_db_txt').style.display = 'none';
         document.getElementById('mg_35_b_txt').style.display = 'none';
@@ -198,14 +198,14 @@ function toggle_tooth_35() {
         
         document.getElementById('note_35_txt').style.display = 'none';
     }
-    else if (Implantat_35 !== 1) {
+    else if (Implant_35 !== 1) {
         Tooth_35 = 1;
         document.getElementById('tooth_line_35_b').style.display = 'none';
         document.getElementById('tooth_line_35_l').style.display = 'none';
 
         document.getElementById('mobility_35_txt').style.display = 'block';
 
-        document.getElementById('implantat_35_btn').style.display = 'block';
+        document.getElementById('implant_35_btn').style.display = 'block';
 
         document.getElementById('mg_35_db_txt').style.display = 'block';
         document.getElementById('mg_35_b_txt').style.display = 'block';
@@ -307,7 +307,7 @@ function toggle_tooth_35() {
             document.getElementById('PI_35_ml_rectangle').style.display = 'block';
         }
     }		
-    else if (Implantat_35 == 1) {
+    else if (Implant_35 == 1) {
         Tooth_35 = 1;
         document.getElementById('tooth_line_35_b').style.display = 'none';
         document.getElementById('tooth_line_35_l').style.display = 'none';
@@ -316,10 +316,10 @@ function toggle_tooth_35() {
         
         document.getElementById('note_35_txt').style.display = 'block';
 
-        document.getElementById('implantat_35_btn').style.display = 'block';
-        document.getElementById('implantat_35_tab').style.display = 'block';
-        document.getElementById('implantat_35_b_image').style.display = 'block';
-        document.getElementById('implantat_35_l_image').style.display = 'block';
+        document.getElementById('implant_35_btn').style.display = 'block';
+        document.getElementById('implant_35_tab').style.display = 'block';
+        document.getElementById('implant_35_b_image').style.display = 'block';
+        document.getElementById('implant_35_l_image').style.display = 'block';
 
         document.getElementById('mg_35_db_txt').style.display = 'block';
         document.getElementById('mg_35_b_txt').style.display = 'block';
@@ -422,19 +422,19 @@ function toggle_tooth_35() {
 }
 
 function toggle_implant_35() {
-    if (Implantat_35 == 0) {
-        Implantat_35 = 1;
+    if (Implant_35 == 0) {
+        Implant_35 = 1;
         
-        document.getElementById('implantat_35_b_image').style.display = 'block';
-        document.getElementById('implantat_35_l_image').style.display = 'block';
-        document.getElementById('implantat_35_tab').style.display = 'block';
+        document.getElementById('implant_35_b_image').style.display = 'block';
+        document.getElementById('implant_35_l_image').style.display = 'block';
+        document.getElementById('implant_35_tab').style.display = 'block';
     }
     else {
-        Implantat_35 = 0;
+        Implant_35 = 0;
         
-        document.getElementById('implantat_35_b_image').style.display = 'none';
-        document.getElementById('implantat_35_l_image').style.display = 'none';
-        document.getElementById('implantat_35_tab').style.display = 'none';
+        document.getElementById('implant_35_b_image').style.display = 'none';
+        document.getElementById('implant_35_l_image').style.display = 'none';
+        document.getElementById('implant_35_tab').style.display = 'none';
     }
 }
 
