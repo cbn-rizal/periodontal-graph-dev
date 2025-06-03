@@ -19,7 +19,7 @@
 @import "furcations/47.css";
 @import "furcations/48.css";
 
-.furkation_hover_btn {
+.furcation_hover_btn {
 	position: absolute;
 	z-index: 40;
 	line-height: 10px;
@@ -31,6 +31,6 @@
 	cursor: pointer;
 }
 
-.furkation_hover_btn:hover {
+.furcation_hover_btn:hover {
 	background-color: #D3DFE7;
 }

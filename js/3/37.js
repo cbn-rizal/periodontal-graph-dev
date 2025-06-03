@@ -1,7 +1,7 @@
 	// Definition der Variablen fÃ¼r das Formular
     var Tooth_37 = 1;
-    var Furkation_37_b = 0;
-    var Furkation_37_l = 0;
+    var Furcation_37_b = 0;
+    var Furcation_37_l = 0;
     var Implantat_37 = 0;
     var BOP_37_db = 0;
     var BOP_37_b = 0;
@@ -78,24 +78,24 @@ function clear_data_37() {
 
             document.getElementById('note_37_txt').value = "";
 
-        Furkation_37_b = 0;
-        Furkation_37_l = 0;
+        Furcation_37_b = 0;
+        Furcation_37_l = 0;
 
-            document.getElementById('furkation_1_37_b').style.display = 'none';
-            document.getElementById('furkation_2_37_b').style.display = 'none';
-            document.getElementById('furkation_3_37_b').style.display = 'none';
+            document.getElementById('furcation_1_37_b').style.display = 'none';
+            document.getElementById('furcation_2_37_b').style.display = 'none';
+            document.getElementById('furcation_3_37_b').style.display = 'none';
                 
-            document.getElementById('furkation_1_37_b_tab').style.display = 'none';
-            document.getElementById('furkation_2_37_b_tab').style.display = 'none';
-            document.getElementById('furkation_3_37_b_tab').style.display = 'none';
+            document.getElementById('furcation_1_37_b_tab').style.display = 'none';
+            document.getElementById('furcation_2_37_b_tab').style.display = 'none';
+            document.getElementById('furcation_3_37_b_tab').style.display = 'none';
             
-            document.getElementById('furkation_1_37_l').style.display = 'none';
-            document.getElementById('furkation_2_37_l').style.display = 'none';
-            document.getElementById('furkation_3_37_l').style.display = 'none';
+            document.getElementById('furcation_1_37_l').style.display = 'none';
+            document.getElementById('furcation_2_37_l').style.display = 'none';
+            document.getElementById('furcation_3_37_l').style.display = 'none';
                 
-            document.getElementById('furkation_1_37_l_tab').style.display = 'none';
-            document.getElementById('furkation_2_37_l_tab').style.display = 'none';
-            document.getElementById('furkation_3_37_l_tab').style.display = 'none';
+            document.getElementById('furcation_1_37_l_tab').style.display = 'none';
+            document.getElementById('furcation_2_37_l_tab').style.display = 'none';
+            document.getElementById('furcation_3_37_l_tab').style.display = 'none';
             
         BOP_37_db = 0;
         BOP_37_b = 0;
@@ -144,24 +144,24 @@ function toggle_tooth_37() {
         document.getElementById('implantat_37_b_image').style.display = 'none';
         document.getElementById('implantat_37_l_image').style.display = 'none';
         
-        document.getElementById('furkation_37_b_btn').style.display = 'none';
-        document.getElementById('furkation_37_l_btn').style.display = 'none';
+        document.getElementById('furcation_37_b_btn').style.display = 'none';
+        document.getElementById('furcation_37_l_btn').style.display = 'none';
         
-        document.getElementById('furkation_1_37_b').style.display = 'none';
-        document.getElementById('furkation_2_37_b').style.display = 'none';
-        document.getElementById('furkation_3_37_b').style.display = 'none';
+        document.getElementById('furcation_1_37_b').style.display = 'none';
+        document.getElementById('furcation_2_37_b').style.display = 'none';
+        document.getElementById('furcation_3_37_b').style.display = 'none';
         
-        document.getElementById('furkation_1_37_b_tab').style.display = 'none';
-        document.getElementById('furkation_2_37_b_tab').style.display = 'none';
-        document.getElementById('furkation_3_37_b_tab').style.display = 'none';
+        document.getElementById('furcation_1_37_b_tab').style.display = 'none';
+        document.getElementById('furcation_2_37_b_tab').style.display = 'none';
+        document.getElementById('furcation_3_37_b_tab').style.display = 'none';
         
-        document.getElementById('furkation_1_37_l').style.display = 'none';
-        document.getElementById('furkation_2_37_l').style.display = 'none';
-        document.getElementById('furkation_3_37_l').style.display = 'none';
+        document.getElementById('furcation_1_37_l').style.display = 'none';
+        document.getElementById('furcation_2_37_l').style.display = 'none';
+        document.getElementById('furcation_3_37_l').style.display = 'none';
         
-        document.getElementById('furkation_1_37_l_tab').style.display = 'none';
-        document.getElementById('furkation_2_37_l_tab').style.display = 'none';
-        document.getElementById('furkation_3_37_l_tab').style.display = 'none';
+        document.getElementById('furcation_1_37_l_tab').style.display = 'none';
+        document.getElementById('furcation_2_37_l_tab').style.display = 'none';
+        document.getElementById('furcation_3_37_l_tab').style.display = 'none';
         
         document.getElementById('mg_37_db_txt').style.display = 'none';
         document.getElementById('mg_37_b_txt').style.display = 'none';
@@ -244,8 +244,8 @@ function toggle_tooth_37() {
 
         document.getElementById('implantat_37_btn').style.display = 'block';
 
-        document.getElementById('furkation_37_b_btn').style.display = 'block';
-        document.getElementById('furkation_37_l_btn').style.display = 'block';
+        document.getElementById('furcation_37_b_btn').style.display = 'block';
+        document.getElementById('furcation_37_l_btn').style.display = 'block';
         
         document.getElementById('mg_37_db_txt').style.display = 'block';
         document.getElementById('mg_37_b_txt').style.display = 'block';
@@ -293,33 +293,33 @@ function toggle_tooth_37() {
             document.getElementById('polyline_mg_inter_37_36_l').style.display = 'block';            
         }
 
-        if (Furkation_37_b == 1) {
-            document.getElementById('furkation_1_37_b').style.display = 'block';
-        } else if (Furkation_37_b == 2) {
-            document.getElementById('furkation_2_37_b').style.display = 'block';
-        } else if (Furkation_37_b == 3) {
-            document.getElementById('furkation_3_37_b').style.display = 'block';
+        if (Furcation_37_b == 1) {
+            document.getElementById('furcation_1_37_b').style.display = 'block';
+        } else if (Furcation_37_b == 2) {
+            document.getElementById('furcation_2_37_b').style.display = 'block';
+        } else if (Furcation_37_b == 3) {
+            document.getElementById('furcation_3_37_b').style.display = 'block';
         }
-        if (Furkation_37_b == 1) {
-            document.getElementById('furkation_1_37_b_tab').style.display = 'block';
-        } else if (Furkation_37_b == 2) {
-            document.getElementById('furkation_2_37_b_tab').style.display = 'block';
-        } else if (Furkation_37_b == 3) {
-            document.getElementById('furkation_3_37_b_tab').style.display = 'block';
+        if (Furcation_37_b == 1) {
+            document.getElementById('furcation_1_37_b_tab').style.display = 'block';
+        } else if (Furcation_37_b == 2) {
+            document.getElementById('furcation_2_37_b_tab').style.display = 'block';
+        } else if (Furcation_37_b == 3) {
+            document.getElementById('furcation_3_37_b_tab').style.display = 'block';
         }
-        if (Furkation_37_l == 1) {
-            document.getElementById('furkation_1_37_l').style.display = 'block';
-        } else if (Furkation_37_l == 2) {
-            document.getElementById('furkation_2_37_l').style.display = 'block';
-        } else if (Furkation_37_l == 3) {
-            document.getElementById('furkation_3_37_l').style.display = 'block';
+        if (Furcation_37_l == 1) {
+            document.getElementById('furcation_1_37_l').style.display = 'block';
+        } else if (Furcation_37_l == 2) {
+            document.getElementById('furcation_2_37_l').style.display = 'block';
+        } else if (Furcation_37_l == 3) {
+            document.getElementById('furcation_3_37_l').style.display = 'block';
         }
-        if (Furkation_37_l == 1) {
-            document.getElementById('furkation_1_37_l_tab').style.display = 'block';
-        } else if (Furkation_37_l == 2) {
-            document.getElementById('furkation_2_37_l_tab').style.display = 'block';
-        } else if (Furkation_37_l == 3) {
-            document.getElementById('furkation_3_37_l_tab').style.display = 'block';
+        if (Furcation_37_l == 1) {
+            document.getElementById('furcation_1_37_l_tab').style.display = 'block';
+        } else if (Furcation_37_l == 2) {
+            document.getElementById('furcation_2_37_l_tab').style.display = 'block';
+        } else if (Furcation_37_l == 3) {
+            document.getElementById('furcation_3_37_l_tab').style.display = 'block';
         }
 
         document.getElementById('BOP_37_db_btn').style.display = 'block';
@@ -498,24 +498,24 @@ function toggle_implant_37() {
         document.getElementById('implantat_37_l_image').style.display = 'block';
         document.getElementById('implantat_37_tab').style.display = 'block';
         
-        document.getElementById('furkation_37_b_btn').style.display = 'none';
-        document.getElementById('furkation_37_l_btn').style.display = 'none';
+        document.getElementById('furcation_37_b_btn').style.display = 'none';
+        document.getElementById('furcation_37_l_btn').style.display = 'none';
         
-        document.getElementById('furkation_1_37_b').style.display = 'none';
-        document.getElementById('furkation_2_37_b').style.display = 'none';
-        document.getElementById('furkation_3_37_b').style.display = 'none';
+        document.getElementById('furcation_1_37_b').style.display = 'none';
+        document.getElementById('furcation_2_37_b').style.display = 'none';
+        document.getElementById('furcation_3_37_b').style.display = 'none';
         
-        document.getElementById('furkation_1_37_b_tab').style.display = 'none';
-        document.getElementById('furkation_2_37_b_tab').style.display = 'none';
-        document.getElementById('furkation_3_37_b_tab').style.display = 'none';
+        document.getElementById('furcation_1_37_b_tab').style.display = 'none';
+        document.getElementById('furcation_2_37_b_tab').style.display = 'none';
+        document.getElementById('furcation_3_37_b_tab').style.display = 'none';
         
-        document.getElementById('furkation_1_37_l').style.display = 'none';
-        document.getElementById('furkation_2_37_l').style.display = 'none';
-        document.getElementById('furkation_3_37_l').style.display = 'none';
+        document.getElementById('furcation_1_37_l').style.display = 'none';
+        document.getElementById('furcation_2_37_l').style.display = 'none';
+        document.getElementById('furcation_3_37_l').style.display = 'none';
         
-        document.getElementById('furkation_1_37_l_tab').style.display = 'none';
-        document.getElementById('furkation_2_37_l_tab').style.display = 'none';
-        document.getElementById('furkation_3_37_l_tab').style.display = 'none';
+        document.getElementById('furcation_1_37_l_tab').style.display = 'none';
+        document.getElementById('furcation_2_37_l_tab').style.display = 'none';
+        document.getElementById('furcation_3_37_l_tab').style.display = 'none';
     }
     else {
         Implantat_37 = 0;
@@ -524,131 +524,131 @@ function toggle_implant_37() {
         document.getElementById('implantat_37_l_image').style.display = 'none';
         document.getElementById('implantat_37_tab').style.display = 'none';
         
-        document.getElementById('furkation_37_b_btn').style.display = 'block';
-        document.getElementById('furkation_37_l_btn').style.display = 'block';
+        document.getElementById('furcation_37_b_btn').style.display = 'block';
+        document.getElementById('furcation_37_l_btn').style.display = 'block';
 
-        if (Furkation_37_b == 1) {
-            document.getElementById('furkation_1_37_b').style.display = 'block';
-        } else if (Furkation_37_b == 2) {
-            document.getElementById('furkation_2_37_b').style.display = 'block';
-        } else if (Furkation_37_b == 3) {
-            document.getElementById('furkation_3_37_b').style.display = 'block';
+        if (Furcation_37_b == 1) {
+            document.getElementById('furcation_1_37_b').style.display = 'block';
+        } else if (Furcation_37_b == 2) {
+            document.getElementById('furcation_2_37_b').style.display = 'block';
+        } else if (Furcation_37_b == 3) {
+            document.getElementById('furcation_3_37_b').style.display = 'block';
         }
-        if (Furkation_37_b == 1) {
-            document.getElementById('furkation_1_37_b_tab').style.display = 'block';
-        } else if (Furkation_37_b == 2) {
-            document.getElementById('furkation_2_37_b_tab').style.display = 'block';
-        } else if (Furkation_37_b == 3) {
-            document.getElementById('furkation_3_37_b_tab').style.display = 'block';
+        if (Furcation_37_b == 1) {
+            document.getElementById('furcation_1_37_b_tab').style.display = 'block';
+        } else if (Furcation_37_b == 2) {
+            document.getElementById('furcation_2_37_b_tab').style.display = 'block';
+        } else if (Furcation_37_b == 3) {
+            document.getElementById('furcation_3_37_b_tab').style.display = 'block';
         }
-        if (Furkation_37_l == 1) {
-            document.getElementById('furkation_1_37_l').style.display = 'block';
-        } else if (Furkation_37_l == 2) {
-            document.getElementById('furkation_2_37_l').style.display = 'block';
-        } else if (Furkation_37_l == 3) {
-            document.getElementById('furkation_3_37_l').style.display = 'block';
+        if (Furcation_37_l == 1) {
+            document.getElementById('furcation_1_37_l').style.display = 'block';
+        } else if (Furcation_37_l == 2) {
+            document.getElementById('furcation_2_37_l').style.display = 'block';
+        } else if (Furcation_37_l == 3) {
+            document.getElementById('furcation_3_37_l').style.display = 'block';
         }
-        if (Furkation_37_l == 1) {
-            document.getElementById('furkation_1_37_l_tab').style.display = 'block';
-        } else if (Furkation_37_l == 2) {
-            document.getElementById('furkation_2_37_l_tab').style.display = 'block';
-        } else if (Furkation_37_l == 3) {
-            document.getElementById('furkation_3_37_l_tab').style.display = 'block';
+        if (Furcation_37_l == 1) {
+            document.getElementById('furcation_1_37_l_tab').style.display = 'block';
+        } else if (Furcation_37_l == 2) {
+            document.getElementById('furcation_2_37_l_tab').style.display = 'block';
+        } else if (Furcation_37_l == 3) {
+            document.getElementById('furcation_3_37_l_tab').style.display = 'block';
         }
     }
 }
 
 function toggle_furcation_37_b() {
-    if (Furkation_37_b == 0) {
-        document.getElementById('furkation_1_37_b_tab').style.display = 'block';
-        document.getElementById('furkation_2_37_b_tab').style.display = 'none';
-        document.getElementById('furkation_3_37_b_tab').style.display = 'none';
+    if (Furcation_37_b == 0) {
+        document.getElementById('furcation_1_37_b_tab').style.display = 'block';
+        document.getElementById('furcation_2_37_b_tab').style.display = 'none';
+        document.getElementById('furcation_3_37_b_tab').style.display = 'none';
         
-        document.getElementById('furkation_1_37_b').style.display = 'block';
-        document.getElementById('furkation_2_37_b').style.display = 'none';
-        document.getElementById('furkation_3_37_b').style.display = 'none';
+        document.getElementById('furcation_1_37_b').style.display = 'block';
+        document.getElementById('furcation_2_37_b').style.display = 'none';
+        document.getElementById('furcation_3_37_b').style.display = 'none';
 
-        Furkation_37_b = 1;
+        Furcation_37_b = 1;
     }
-    else if (Furkation_37_b == 1) {
-        document.getElementById('furkation_1_37_b_tab').style.display = 'none';
-        document.getElementById('furkation_2_37_b_tab').style.display = 'block';
-        document.getElementById('furkation_3_37_b_tab').style.display = 'none';
+    else if (Furcation_37_b == 1) {
+        document.getElementById('furcation_1_37_b_tab').style.display = 'none';
+        document.getElementById('furcation_2_37_b_tab').style.display = 'block';
+        document.getElementById('furcation_3_37_b_tab').style.display = 'none';
         
-        document.getElementById('furkation_1_37_b').style.display = 'none';
-        document.getElementById('furkation_2_37_b').style.display = 'block';
-        document.getElementById('furkation_3_37_b').style.display = 'none';
+        document.getElementById('furcation_1_37_b').style.display = 'none';
+        document.getElementById('furcation_2_37_b').style.display = 'block';
+        document.getElementById('furcation_3_37_b').style.display = 'none';
         
-        Furkation_37_b = 2;
+        Furcation_37_b = 2;
     }
-    else if (Furkation_37_b == 2) {
-        document.getElementById('furkation_1_37_b_tab').style.display = 'none';
-        document.getElementById('furkation_2_37_b_tab').style.display = 'none';
-        document.getElementById('furkation_3_37_b_tab').style.display = 'block';
+    else if (Furcation_37_b == 2) {
+        document.getElementById('furcation_1_37_b_tab').style.display = 'none';
+        document.getElementById('furcation_2_37_b_tab').style.display = 'none';
+        document.getElementById('furcation_3_37_b_tab').style.display = 'block';
         
-        document.getElementById('furkation_1_37_b').style.display = 'none';
-        document.getElementById('furkation_2_37_b').style.display = 'none';
-        document.getElementById('furkation_3_37_b').style.display = 'block';
+        document.getElementById('furcation_1_37_b').style.display = 'none';
+        document.getElementById('furcation_2_37_b').style.display = 'none';
+        document.getElementById('furcation_3_37_b').style.display = 'block';
                     
-        Furkation_37_b = 3;
+        Furcation_37_b = 3;
     }
-    else if (Furkation_37_b == 3) {
-        document.getElementById('furkation_1_37_b_tab').style.display = 'none';
-        document.getElementById('furkation_2_37_b_tab').style.display = 'none';
-        document.getElementById('furkation_3_37_b_tab').style.display = 'none';
+    else if (Furcation_37_b == 3) {
+        document.getElementById('furcation_1_37_b_tab').style.display = 'none';
+        document.getElementById('furcation_2_37_b_tab').style.display = 'none';
+        document.getElementById('furcation_3_37_b_tab').style.display = 'none';
         
-        document.getElementById('furkation_1_37_b').style.display = 'none';
-        document.getElementById('furkation_2_37_b').style.display = 'none';
-        document.getElementById('furkation_3_37_b').style.display = 'none';
+        document.getElementById('furcation_1_37_b').style.display = 'none';
+        document.getElementById('furcation_2_37_b').style.display = 'none';
+        document.getElementById('furcation_3_37_b').style.display = 'none';
                     
-        Furkation_37_b = 0;
+        Furcation_37_b = 0;
     }
 }
 
 function toggle_furcation_37_l() {
-    if (Furkation_37_l == 0) {
-        document.getElementById('furkation_1_37_l_tab').style.display = 'block';
-        document.getElementById('furkation_2_37_l_tab').style.display = 'none';
-        document.getElementById('furkation_3_37_l_tab').style.display = 'none';
+    if (Furcation_37_l == 0) {
+        document.getElementById('furcation_1_37_l_tab').style.display = 'block';
+        document.getElementById('furcation_2_37_l_tab').style.display = 'none';
+        document.getElementById('furcation_3_37_l_tab').style.display = 'none';
         
-        document.getElementById('furkation_1_37_l').style.display = 'block';
-        document.getElementById('furkation_2_37_l').style.display = 'none';
-        document.getElementById('furkation_3_37_l').style.display = 'none';
+        document.getElementById('furcation_1_37_l').style.display = 'block';
+        document.getElementById('furcation_2_37_l').style.display = 'none';
+        document.getElementById('furcation_3_37_l').style.display = 'none';
 
-        Furkation_37_l = 1;
+        Furcation_37_l = 1;
     }
-    else if (Furkation_37_l == 1) {
-        document.getElementById('furkation_1_37_l_tab').style.display = 'none';
-        document.getElementById('furkation_2_37_l_tab').style.display = 'block';
-        document.getElementById('furkation_3_37_l_tab').style.display = 'none';
+    else if (Furcation_37_l == 1) {
+        document.getElementById('furcation_1_37_l_tab').style.display = 'none';
+        document.getElementById('furcation_2_37_l_tab').style.display = 'block';
+        document.getElementById('furcation_3_37_l_tab').style.display = 'none';
         
-        document.getElementById('furkation_1_37_l').style.display = 'none';
-        document.getElementById('furkation_2_37_l').style.display = 'block';
-        document.getElementById('furkation_3_37_l').style.display = 'none';
+        document.getElementById('furcation_1_37_l').style.display = 'none';
+        document.getElementById('furcation_2_37_l').style.display = 'block';
+        document.getElementById('furcation_3_37_l').style.display = 'none';
         
-        Furkation_37_l = 2;
+        Furcation_37_l = 2;
     }
-    else if (Furkation_37_l == 2) {
-        document.getElementById('furkation_1_37_l_tab').style.display = 'none';
-        document.getElementById('furkation_2_37_l_tab').style.display = 'none';
-        document.getElementById('furkation_3_37_l_tab').style.display = 'block';
+    else if (Furcation_37_l == 2) {
+        document.getElementById('furcation_1_37_l_tab').style.display = 'none';
+        document.getElementById('furcation_2_37_l_tab').style.display = 'none';
+        document.getElementById('furcation_3_37_l_tab').style.display = 'block';
         
-        document.getElementById('furkation_1_37_l').style.display = 'none';
-        document.getElementById('furkation_2_37_l').style.display = 'none';
-        document.getElementById('furkation_3_37_l').style.display = 'block';
+        document.getElementById('furcation_1_37_l').style.display = 'none';
+        document.getElementById('furcation_2_37_l').style.display = 'none';
+        document.getElementById('furcation_3_37_l').style.display = 'block';
                     
-        Furkation_37_l = 3;
+        Furcation_37_l = 3;
     }
-    else if (Furkation_37_l == 3) {
-        document.getElementById('furkation_1_37_l_tab').style.display = 'none';
-        document.getElementById('furkation_2_37_l_tab').style.display = 'none';
-        document.getElementById('furkation_3_37_l_tab').style.display = 'none';
+    else if (Furcation_37_l == 3) {
+        document.getElementById('furcation_1_37_l_tab').style.display = 'none';
+        document.getElementById('furcation_2_37_l_tab').style.display = 'none';
+        document.getElementById('furcation_3_37_l_tab').style.display = 'none';
         
-        document.getElementById('furkation_1_37_l').style.display = 'none';
-        document.getElementById('furkation_2_37_l').style.display = 'none';
-        document.getElementById('furkation_3_37_l').style.display = 'none';
+        document.getElementById('furcation_1_37_l').style.display = 'none';
+        document.getElementById('furcation_2_37_l').style.display = 'none';
+        document.getElementById('furcation_3_37_l').style.display = 'none';
                     
-        Furkation_37_l = 0;
+        Furcation_37_l = 0;
     }
 }
 

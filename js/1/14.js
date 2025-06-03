@@ -1,7 +1,7 @@
 	// Definition der Variablen fÃ¼r das Formular
     var Tooth_14 = 1;
-    var Furkation_14_dp = 0;
-    var Furkation_14_mp = 0;
+    var Furcation_14_dp = 0;
+    var Furcation_14_mp = 0;
     var Implantat_14 = 0;
     var BOP_14_db = 0;
     var BOP_14_b = 0;
@@ -78,24 +78,24 @@ function clear_data_14() {
 
             document.getElementById('note_14_txt').value = "";
 
-        Furkation_14_dp = 0;
-        Furkation_14_mp = 0;
+        Furcation_14_dp = 0;
+        Furcation_14_mp = 0;
 
-            document.getElementById('furkation_1_14_dp').style.display = 'none';
-            document.getElementById('furkation_2_14_dp').style.display = 'none';
-            document.getElementById('furkation_3_14_dp').style.display = 'none';
+            document.getElementById('furcation_1_14_dp').style.display = 'none';
+            document.getElementById('furcation_2_14_dp').style.display = 'none';
+            document.getElementById('furcation_3_14_dp').style.display = 'none';
                 
-            document.getElementById('furkation_1_14_dp_tab').style.display = 'none';
-            document.getElementById('furkation_2_14_dp_tab').style.display = 'none';
-            document.getElementById('furkation_3_14_dp_tab').style.display = 'none';
+            document.getElementById('furcation_1_14_dp_tab').style.display = 'none';
+            document.getElementById('furcation_2_14_dp_tab').style.display = 'none';
+            document.getElementById('furcation_3_14_dp_tab').style.display = 'none';
             
-            document.getElementById('furkation_1_14_mp').style.display = 'none';
-            document.getElementById('furkation_2_14_mp').style.display = 'none';
-            document.getElementById('furkation_3_14_mp').style.display = 'none';
+            document.getElementById('furcation_1_14_mp').style.display = 'none';
+            document.getElementById('furcation_2_14_mp').style.display = 'none';
+            document.getElementById('furcation_3_14_mp').style.display = 'none';
             
-            document.getElementById('furkation_1_14_mp_tab').style.display = 'none';
-            document.getElementById('furkation_2_14_mp_tab').style.display = 'none';
-            document.getElementById('furkation_3_14_mp_tab').style.display = 'none';
+            document.getElementById('furcation_1_14_mp_tab').style.display = 'none';
+            document.getElementById('furcation_2_14_mp_tab').style.display = 'none';
+            document.getElementById('furcation_3_14_mp_tab').style.display = 'none';
 
         BOP_14_db = 0;
         BOP_14_b = 0;
@@ -144,24 +144,24 @@ function toggle_tooth_14() {
         document.getElementById('implantat_14_b_image').style.display = 'none';
         document.getElementById('implantat_14_p_image').style.display = 'none';
         
-        document.getElementById('furkation_14_dp_btn').style.display = 'none';
-        document.getElementById('furkation_14_mp_btn').style.display = 'none';
+        document.getElementById('furcation_14_dp_btn').style.display = 'none';
+        document.getElementById('furcation_14_mp_btn').style.display = 'none';
         
-        document.getElementById('furkation_1_14_dp').style.display = 'none';
-        document.getElementById('furkation_2_14_dp').style.display = 'none';
-        document.getElementById('furkation_3_14_dp').style.display = 'none';
+        document.getElementById('furcation_1_14_dp').style.display = 'none';
+        document.getElementById('furcation_2_14_dp').style.display = 'none';
+        document.getElementById('furcation_3_14_dp').style.display = 'none';
         
-        document.getElementById('furkation_1_14_dp_tab').style.display = 'none';
-        document.getElementById('furkation_2_14_dp_tab').style.display = 'none';
-        document.getElementById('furkation_3_14_dp_tab').style.display = 'none';
+        document.getElementById('furcation_1_14_dp_tab').style.display = 'none';
+        document.getElementById('furcation_2_14_dp_tab').style.display = 'none';
+        document.getElementById('furcation_3_14_dp_tab').style.display = 'none';
         
-        document.getElementById('furkation_1_14_mp').style.display = 'none';
-        document.getElementById('furkation_2_14_mp').style.display = 'none';
-        document.getElementById('furkation_3_14_mp').style.display = 'none';
+        document.getElementById('furcation_1_14_mp').style.display = 'none';
+        document.getElementById('furcation_2_14_mp').style.display = 'none';
+        document.getElementById('furcation_3_14_mp').style.display = 'none';
         
-        document.getElementById('furkation_1_14_mp_tab').style.display = 'none';
-        document.getElementById('furkation_2_14_mp_tab').style.display = 'none';
-        document.getElementById('furkation_3_14_mp_tab').style.display = 'none';
+        document.getElementById('furcation_1_14_mp_tab').style.display = 'none';
+        document.getElementById('furcation_2_14_mp_tab').style.display = 'none';
+        document.getElementById('furcation_3_14_mp_tab').style.display = 'none';
         
         document.getElementById('mg_14_db_txt').style.display = 'none';
         document.getElementById('mg_14_b_txt').style.display = 'none';
@@ -246,8 +246,8 @@ function toggle_tooth_14() {
 
         document.getElementById('implantat_14_btn').style.display = 'block';
 
-        document.getElementById('furkation_14_dp_btn').style.display = 'block';
-        document.getElementById('furkation_14_mp_btn').style.display = 'block';
+        document.getElementById('furcation_14_dp_btn').style.display = 'block';
+        document.getElementById('furcation_14_mp_btn').style.display = 'block';
         
         document.getElementById('mg_14_db_txt').style.display = 'block';
         document.getElementById('mg_14_b_txt').style.display = 'block';
@@ -295,33 +295,33 @@ function toggle_tooth_14() {
             document.getElementById('polyline_mg_inter_14_13_p').style.display = 'block';            
         }
         
-        if (Furkation_14_dp == 1) {
-            document.getElementById('furkation_1_14_dp').style.display = 'block';
-        } else if (Furkation_14_dp == 2) {
-            document.getElementById('furkation_2_14_dp').style.display = 'block';
-        } else if (Furkation_14_dp == 3) {
-            document.getElementById('furkation_3_14_dp').style.display = 'block';
+        if (Furcation_14_dp == 1) {
+            document.getElementById('furcation_1_14_dp').style.display = 'block';
+        } else if (Furcation_14_dp == 2) {
+            document.getElementById('furcation_2_14_dp').style.display = 'block';
+        } else if (Furcation_14_dp == 3) {
+            document.getElementById('furcation_3_14_dp').style.display = 'block';
         }
-        if (Furkation_14_dp == 1) {
-            document.getElementById('furkation_1_14_dp_tab').style.display = 'block';
-        } else if (Furkation_14_dp == 2) {
-            document.getElementById('furkation_2_14_dp_tab').style.display = 'block';
-        } else if (Furkation_14_dp == 3) {
-            document.getElementById('furkation_3_14_dp_tab').style.display = 'block';
+        if (Furcation_14_dp == 1) {
+            document.getElementById('furcation_1_14_dp_tab').style.display = 'block';
+        } else if (Furcation_14_dp == 2) {
+            document.getElementById('furcation_2_14_dp_tab').style.display = 'block';
+        } else if (Furcation_14_dp == 3) {
+            document.getElementById('furcation_3_14_dp_tab').style.display = 'block';
         }
-        if (Furkation_14_mp == 1) {
-            document.getElementById('furkation_1_14_mp').style.display = 'block';
-        } else if (Furkation_14_mp == 2) {
-            document.getElementById('furkation_2_14_mp').style.display = 'block';
-        } else if (Furkation_14_mp == 3) {
-            document.getElementById('furkation_3_14_mp').style.display = 'block';
+        if (Furcation_14_mp == 1) {
+            document.getElementById('furcation_1_14_mp').style.display = 'block';
+        } else if (Furcation_14_mp == 2) {
+            document.getElementById('furcation_2_14_mp').style.display = 'block';
+        } else if (Furcation_14_mp == 3) {
+            document.getElementById('furcation_3_14_mp').style.display = 'block';
         }
-        if (Furkation_14_mp == 1) {
-            document.getElementById('furkation_1_14_mp_tab').style.display = 'block';
-        } else if (Furkation_14_mp == 2) {
-            document.getElementById('furkation_2_14_mp_tab').style.display = 'block';
-        } else if (Furkation_14_mp == 3) {
-            document.getElementById('furkation_3_14_mp_tab').style.display = 'block';
+        if (Furcation_14_mp == 1) {
+            document.getElementById('furcation_1_14_mp_tab').style.display = 'block';
+        } else if (Furcation_14_mp == 2) {
+            document.getElementById('furcation_2_14_mp_tab').style.display = 'block';
+        } else if (Furcation_14_mp == 3) {
+            document.getElementById('furcation_3_14_mp_tab').style.display = 'block';
         }
 
         document.getElementById('BOP_14_db_btn').style.display = 'block';
@@ -500,24 +500,24 @@ function toggle_implant_14() {
         document.getElementById('implantat_14_p_image').style.display = 'block';
         document.getElementById('implantat_14_tab').style.display = 'block';
         
-        document.getElementById('furkation_14_dp_btn').style.display = 'none';
-        document.getElementById('furkation_14_mp_btn').style.display = 'none';
+        document.getElementById('furcation_14_dp_btn').style.display = 'none';
+        document.getElementById('furcation_14_mp_btn').style.display = 'none';
         
-        document.getElementById('furkation_1_14_dp').style.display = 'none';
-        document.getElementById('furkation_2_14_dp').style.display = 'none';
-        document.getElementById('furkation_3_14_dp').style.display = 'none';
+        document.getElementById('furcation_1_14_dp').style.display = 'none';
+        document.getElementById('furcation_2_14_dp').style.display = 'none';
+        document.getElementById('furcation_3_14_dp').style.display = 'none';
         
-        document.getElementById('furkation_1_14_dp_tab').style.display = 'none';
-        document.getElementById('furkation_2_14_dp_tab').style.display = 'none';
-        document.getElementById('furkation_3_14_dp_tab').style.display = 'none';
+        document.getElementById('furcation_1_14_dp_tab').style.display = 'none';
+        document.getElementById('furcation_2_14_dp_tab').style.display = 'none';
+        document.getElementById('furcation_3_14_dp_tab').style.display = 'none';
         
-        document.getElementById('furkation_1_14_mp').style.display = 'none';
-        document.getElementById('furkation_2_14_mp').style.display = 'none';
-        document.getElementById('furkation_3_14_mp').style.display = 'none';
+        document.getElementById('furcation_1_14_mp').style.display = 'none';
+        document.getElementById('furcation_2_14_mp').style.display = 'none';
+        document.getElementById('furcation_3_14_mp').style.display = 'none';
         
-        document.getElementById('furkation_1_14_mp_tab').style.display = 'none';
-        document.getElementById('furkation_2_14_mp_tab').style.display = 'none';
-        document.getElementById('furkation_3_14_mp_tab').style.display = 'none';
+        document.getElementById('furcation_1_14_mp_tab').style.display = 'none';
+        document.getElementById('furcation_2_14_mp_tab').style.display = 'none';
+        document.getElementById('furcation_3_14_mp_tab').style.display = 'none';
     }
     else {
         Implantat_14 = 0;
@@ -526,131 +526,131 @@ function toggle_implant_14() {
         document.getElementById('implantat_14_p_image').style.display = 'none';
         document.getElementById('implantat_14_tab').style.display = 'none';
         
-        document.getElementById('furkation_14_dp_btn').style.display = 'block';
-        document.getElementById('furkation_14_mp_btn').style.display = 'block';
+        document.getElementById('furcation_14_dp_btn').style.display = 'block';
+        document.getElementById('furcation_14_mp_btn').style.display = 'block';
 
-        if (Furkation_14_dp == 1) {
-            document.getElementById('furkation_1_14_dp').style.display = 'block';
-        } else if (Furkation_14_dp == 2) {
-            document.getElementById('furkation_2_14_dp').style.display = 'block';
-        } else if (Furkation_14_dp == 3) {
-            document.getElementById('furkation_3_14_dp').style.display = 'block';
+        if (Furcation_14_dp == 1) {
+            document.getElementById('furcation_1_14_dp').style.display = 'block';
+        } else if (Furcation_14_dp == 2) {
+            document.getElementById('furcation_2_14_dp').style.display = 'block';
+        } else if (Furcation_14_dp == 3) {
+            document.getElementById('furcation_3_14_dp').style.display = 'block';
         }
-        if (Furkation_14_dp == 1) {
-            document.getElementById('furkation_1_14_dp_tab').style.display = 'block';
-        } else if (Furkation_14_dp == 2) {
-            document.getElementById('furkation_2_14_dp_tab').style.display = 'block';
-        } else if (Furkation_14_dp == 3) {
-            document.getElementById('furkation_3_14_dp_tab').style.display = 'block';
+        if (Furcation_14_dp == 1) {
+            document.getElementById('furcation_1_14_dp_tab').style.display = 'block';
+        } else if (Furcation_14_dp == 2) {
+            document.getElementById('furcation_2_14_dp_tab').style.display = 'block';
+        } else if (Furcation_14_dp == 3) {
+            document.getElementById('furcation_3_14_dp_tab').style.display = 'block';
         }
-        if (Furkation_14_mp == 1) {
-            document.getElementById('furkation_1_14_mp').style.display = 'block';
-        } else if (Furkation_14_mp == 2) {
-            document.getElementById('furkation_2_14_mp').style.display = 'block';
-        } else if (Furkation_14_mp == 3) {
-            document.getElementById('furkation_3_14_mp').style.display = 'block';
+        if (Furcation_14_mp == 1) {
+            document.getElementById('furcation_1_14_mp').style.display = 'block';
+        } else if (Furcation_14_mp == 2) {
+            document.getElementById('furcation_2_14_mp').style.display = 'block';
+        } else if (Furcation_14_mp == 3) {
+            document.getElementById('furcation_3_14_mp').style.display = 'block';
         }
-        if (Furkation_14_mp == 1) {
-            document.getElementById('furkation_1_14_mp_tab').style.display = 'block';
-        } else if (Furkation_14_mp == 2) {
-            document.getElementById('furkation_2_14_mp_tab').style.display = 'block';
-        } else if (Furkation_14_mp == 3) {
-            document.getElementById('furkation_3_14_mp_tab').style.display = 'block';
+        if (Furcation_14_mp == 1) {
+            document.getElementById('furcation_1_14_mp_tab').style.display = 'block';
+        } else if (Furcation_14_mp == 2) {
+            document.getElementById('furcation_2_14_mp_tab').style.display = 'block';
+        } else if (Furcation_14_mp == 3) {
+            document.getElementById('furcation_3_14_mp_tab').style.display = 'block';
         }
     }
 }
 
 function toggle_furcation_14_dp() {
-    if (Furkation_14_dp == 0) {
-        document.getElementById('furkation_1_14_dp_tab').style.display = 'block';
-        document.getElementById('furkation_2_14_dp_tab').style.display = 'none';
-        document.getElementById('furkation_3_14_dp_tab').style.display = 'none';
+    if (Furcation_14_dp == 0) {
+        document.getElementById('furcation_1_14_dp_tab').style.display = 'block';
+        document.getElementById('furcation_2_14_dp_tab').style.display = 'none';
+        document.getElementById('furcation_3_14_dp_tab').style.display = 'none';
         
-        document.getElementById('furkation_1_14_dp').style.display = 'block';
-        document.getElementById('furkation_2_14_dp').style.display = 'none';
-        document.getElementById('furkation_3_14_dp').style.display = 'none';
+        document.getElementById('furcation_1_14_dp').style.display = 'block';
+        document.getElementById('furcation_2_14_dp').style.display = 'none';
+        document.getElementById('furcation_3_14_dp').style.display = 'none';
 
-        Furkation_14_dp = 1;
+        Furcation_14_dp = 1;
     }
-    else if (Furkation_14_dp == 1) {
-        document.getElementById('furkation_1_14_dp_tab').style.display = 'none';
-        document.getElementById('furkation_2_14_dp_tab').style.display = 'block';
-        document.getElementById('furkation_3_14_dp_tab').style.display = 'none';
+    else if (Furcation_14_dp == 1) {
+        document.getElementById('furcation_1_14_dp_tab').style.display = 'none';
+        document.getElementById('furcation_2_14_dp_tab').style.display = 'block';
+        document.getElementById('furcation_3_14_dp_tab').style.display = 'none';
         
-        document.getElementById('furkation_1_14_dp').style.display = 'none';
-        document.getElementById('furkation_2_14_dp').style.display = 'block';
-        document.getElementById('furkation_3_14_dp').style.display = 'none';
+        document.getElementById('furcation_1_14_dp').style.display = 'none';
+        document.getElementById('furcation_2_14_dp').style.display = 'block';
+        document.getElementById('furcation_3_14_dp').style.display = 'none';
         
-        Furkation_14_dp = 2;
+        Furcation_14_dp = 2;
     }
-    else if (Furkation_14_dp == 2) {
-        document.getElementById('furkation_1_14_dp_tab').style.display = 'none';
-        document.getElementById('furkation_2_14_dp_tab').style.display = 'none';
-        document.getElementById('furkation_3_14_dp_tab').style.display = 'block';
+    else if (Furcation_14_dp == 2) {
+        document.getElementById('furcation_1_14_dp_tab').style.display = 'none';
+        document.getElementById('furcation_2_14_dp_tab').style.display = 'none';
+        document.getElementById('furcation_3_14_dp_tab').style.display = 'block';
         
-        document.getElementById('furkation_1_14_dp').style.display = 'none';
-        document.getElementById('furkation_2_14_dp').style.display = 'none';
-        document.getElementById('furkation_3_14_dp').style.display = 'block';
+        document.getElementById('furcation_1_14_dp').style.display = 'none';
+        document.getElementById('furcation_2_14_dp').style.display = 'none';
+        document.getElementById('furcation_3_14_dp').style.display = 'block';
                     
-        Furkation_14_dp = 3;
+        Furcation_14_dp = 3;
     }
-    else if (Furkation_14_dp == 3) {
-        document.getElementById('furkation_1_14_dp_tab').style.display = 'none';
-        document.getElementById('furkation_2_14_dp_tab').style.display = 'none';
-        document.getElementById('furkation_3_14_dp_tab').style.display = 'none';
+    else if (Furcation_14_dp == 3) {
+        document.getElementById('furcation_1_14_dp_tab').style.display = 'none';
+        document.getElementById('furcation_2_14_dp_tab').style.display = 'none';
+        document.getElementById('furcation_3_14_dp_tab').style.display = 'none';
         
-        document.getElementById('furkation_1_14_dp').style.display = 'none';
-        document.getElementById('furkation_2_14_dp').style.display = 'none';
-        document.getElementById('furkation_3_14_dp').style.display = 'none';
+        document.getElementById('furcation_1_14_dp').style.display = 'none';
+        document.getElementById('furcation_2_14_dp').style.display = 'none';
+        document.getElementById('furcation_3_14_dp').style.display = 'none';
                     
-        Furkation_14_dp = 0;
+        Furcation_14_dp = 0;
     }
 }
 
 function toggle_furcation_14_mp() {
-    if (Furkation_14_mp == 0) {
-        document.getElementById('furkation_1_14_mp_tab').style.display = 'block';
-        document.getElementById('furkation_2_14_mp_tab').style.display = 'none';
-        document.getElementById('furkation_3_14_mp_tab').style.display = 'none';
+    if (Furcation_14_mp == 0) {
+        document.getElementById('furcation_1_14_mp_tab').style.display = 'block';
+        document.getElementById('furcation_2_14_mp_tab').style.display = 'none';
+        document.getElementById('furcation_3_14_mp_tab').style.display = 'none';
         
-        document.getElementById('furkation_1_14_mp').style.display = 'block';
-        document.getElementById('furkation_2_14_mp').style.display = 'none';
-        document.getElementById('furkation_3_14_mp').style.display = 'none';
+        document.getElementById('furcation_1_14_mp').style.display = 'block';
+        document.getElementById('furcation_2_14_mp').style.display = 'none';
+        document.getElementById('furcation_3_14_mp').style.display = 'none';
 
-        Furkation_14_mp = 1;
+        Furcation_14_mp = 1;
     }
-    else if (Furkation_14_mp == 1) {
-        document.getElementById('furkation_1_14_mp_tab').style.display = 'none';
-        document.getElementById('furkation_2_14_mp_tab').style.display = 'block';
-        document.getElementById('furkation_3_14_mp_tab').style.display = 'none';
+    else if (Furcation_14_mp == 1) {
+        document.getElementById('furcation_1_14_mp_tab').style.display = 'none';
+        document.getElementById('furcation_2_14_mp_tab').style.display = 'block';
+        document.getElementById('furcation_3_14_mp_tab').style.display = 'none';
         
-        document.getElementById('furkation_1_14_mp').style.display = 'none';
-        document.getElementById('furkation_2_14_mp').style.display = 'block';
-        document.getElementById('furkation_3_14_mp').style.display = 'none';
+        document.getElementById('furcation_1_14_mp').style.display = 'none';
+        document.getElementById('furcation_2_14_mp').style.display = 'block';
+        document.getElementById('furcation_3_14_mp').style.display = 'none';
         
-        Furkation_14_mp = 2;
+        Furcation_14_mp = 2;
     }
-    else if (Furkation_14_mp == 2) {
-        document.getElementById('furkation_1_14_mp_tab').style.display = 'none';
-        document.getElementById('furkation_2_14_mp_tab').style.display = 'none';
-        document.getElementById('furkation_3_14_mp_tab').style.display = 'block';
+    else if (Furcation_14_mp == 2) {
+        document.getElementById('furcation_1_14_mp_tab').style.display = 'none';
+        document.getElementById('furcation_2_14_mp_tab').style.display = 'none';
+        document.getElementById('furcation_3_14_mp_tab').style.display = 'block';
         
-        document.getElementById('furkation_1_14_mp').style.display = 'none';
-        document.getElementById('furkation_2_14_mp').style.display = 'none';
-        document.getElementById('furkation_3_14_mp').style.display = 'block';
+        document.getElementById('furcation_1_14_mp').style.display = 'none';
+        document.getElementById('furcation_2_14_mp').style.display = 'none';
+        document.getElementById('furcation_3_14_mp').style.display = 'block';
                     
-        Furkation_14_mp = 3;
+        Furcation_14_mp = 3;
     }
-    else if (Furkation_14_mp == 3) {
-        document.getElementById('furkation_1_14_mp_tab').style.display = 'none';
-        document.getElementById('furkation_2_14_mp_tab').style.display = 'none';
-        document.getElementById('furkation_3_14_mp_tab').style.display = 'none';
+    else if (Furcation_14_mp == 3) {
+        document.getElementById('furcation_1_14_mp_tab').style.display = 'none';
+        document.getElementById('furcation_2_14_mp_tab').style.display = 'none';
+        document.getElementById('furcation_3_14_mp_tab').style.display = 'none';
         
-        document.getElementById('furkation_1_14_mp').style.display = 'none';
-        document.getElementById('furkation_2_14_mp').style.display = 'none';
-        document.getElementById('furkation_3_14_mp').style.display = 'none';
+        document.getElementById('furcation_1_14_mp').style.display = 'none';
+        document.getElementById('furcation_2_14_mp').style.display = 'none';
+        document.getElementById('furcation_3_14_mp').style.display = 'none';
                     
-        Furkation_14_mp = 0;
+        Furcation_14_mp = 0;
     }
 }
 
