@@ -891,29 +891,29 @@ function toggle_PI_27_mp() {
     }
 }
 
-function change_probing_27() {
+function change_probing_27(probing_depth_min = 0) {
     if (Tooth_27 == 1) {
         
     // Variablen aus dem Formular
-        st_27_db = document.forms[0]["st_27_db"].value;
-        st_27_b = document.forms[0]["st_27_b"].value;
-        st_27_mb = document.forms[0]["st_27_mb"].value;
+        st_27_db = document.forms[0]["st_27_db"].value - probing_depth_min <= 0 ? 0 : document.forms[0]["st_27_db"].value;
+        st_27_b = document.forms[0]["st_27_b"].value - probing_depth_min <= 0 ? 0 : document.forms[0]["st_27_b"].value;
+        st_27_mb = document.forms[0]["st_27_mb"].value - probing_depth_min <= 0 ? 0 : document.forms[0]["st_27_mb"].value;
 
-        if (document.forms[0]["st_27_dp"].value > 3) {document.forms[0]["st_27_dp"].style.color = 'red';} else {document.forms[0]["st_27_dp"].style.color = 'black'};
-        if (document.forms[0]["st_27_p"].value > 3) {document.forms[0]["st_27_p"].style.color = 'red';} else {document.forms[0]["st_27_p"].style.color = 'black'};
-        if (document.forms[0]["st_27_mp"].value > 3) {document.forms[0]["st_27_mp"].style.color = 'red';} else {document.forms[0]["st_27_mp"].style.color = 'black'};
+        if (document.forms[0]["st_27_dp"].value > probing_depth_min) {document.forms[0]["st_27_dp"].style.color = 'red';} else {document.forms[0]["st_27_dp"].style.color = 'black'};
+        if (document.forms[0]["st_27_p"].value > probing_depth_min) {document.forms[0]["st_27_p"].style.color = 'red';} else {document.forms[0]["st_27_p"].style.color = 'black'};
+        if (document.forms[0]["st_27_mp"].value > probing_depth_min) {document.forms[0]["st_27_mp"].style.color = 'red';} else {document.forms[0]["st_27_mp"].style.color = 'black'};
         
         mg_27_db = document.forms[0]["mg_27_db"].value;
         mg_27_b = document.forms[0]["mg_27_b"].value;
         mg_27_mb = document.forms[0]["mg_27_mb"].value;
         
-        st_27_dp = document.forms[0]["st_27_dp"].value;
-        st_27_p = document.forms[0]["st_27_p"].value;
-        st_27_mp = document.forms[0]["st_27_mp"].value;
+        st_27_dp = document.forms[0]["st_27_dp"].value - probing_depth_min <= 0 ? 0 : document.forms[0]["st_27_dp"].value;
+        st_27_p = document.forms[0]["st_27_p"].value - probing_depth_min <= 0 ? 0 : document.forms[0]["st_27_p"].value;
+        st_27_mp = document.forms[0]["st_27_mp"].value - probing_depth_min <= 0 ? 0 : document.forms[0]["st_27_mp"].value;
 
-        if (document.forms[0]["st_27_db"].value > 3) {document.forms[0]["st_27_db"].style.color = 'red';} else {document.forms[0]["st_27_db"].style.color = 'black'};
-        if (document.forms[0]["st_27_b"].value > 3) {document.forms[0]["st_27_b"].style.color = 'red';} else {document.forms[0]["st_27_b"].style.color = 'black'};
-        if (document.forms[0]["st_27_mb"].value > 3) {document.forms[0]["st_27_mb"].style.color = 'red';} else {document.forms[0]["st_27_mb"].style.color = 'black'};
+        if (document.forms[0]["st_27_db"].value > probing_depth_min) {document.forms[0]["st_27_db"].style.color = 'red';} else {document.forms[0]["st_27_db"].style.color = 'black'};
+        if (document.forms[0]["st_27_b"].value > probing_depth_min) {document.forms[0]["st_27_b"].style.color = 'red';} else {document.forms[0]["st_27_b"].style.color = 'black'};
+        if (document.forms[0]["st_27_mb"].value > probing_depth_min) {document.forms[0]["st_27_mb"].style.color = 'red';} else {document.forms[0]["st_27_mb"].style.color = 'black'};
         
         mg_27_dp = document.forms[0]["mg_27_dp"].value;
         mg_27_p = document.forms[0]["mg_27_p"].value;
