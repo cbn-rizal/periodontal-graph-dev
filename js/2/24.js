@@ -790,9 +790,9 @@ function change_probing_24(probing_depth_min = 0) {
     if (Tooth_24 == 1) {
         
     // Variablen aus dem Formular
-        st_24_db = document.forms[0]["st_24_db"].value - probing_depth_min <= 0 ? 0 : document.forms[0]["st_24_db"].value;
-        st_24_b = document.forms[0]["st_24_b"].value - probing_depth_min <= 0 ? 0 : document.forms[0]["st_24_b"].value;
-        st_24_mb = document.forms[0]["st_24_mb"].value - probing_depth_min <= 0 ? 0 : document.forms[0]["st_24_mb"].value;
+        st_24_db = document.forms[0]["st_24_db"].value - probing_depth_min <= 0 ? 0 : document.forms[0]["st_24_db"].value - probing_depth_min;
+        st_24_b = document.forms[0]["st_24_b"].value - probing_depth_min <= 0 ? 0 : document.forms[0]["st_24_b"].value - probing_depth_min;
+        st_24_mb = document.forms[0]["st_24_mb"].value - probing_depth_min <= 0 ? 0 : document.forms[0]["st_24_mb"].value - probing_depth_min;
 
         if (document.forms[0]["st_24_dp"].value > probing_depth_min) {document.forms[0]["st_24_dp"].style.color = 'red';} else {document.forms[0]["st_24_dp"].style.color = 'black'};
         if (document.forms[0]["st_24_p"].value > probing_depth_min) {document.forms[0]["st_24_p"].style.color = 'red';} else {document.forms[0]["st_24_p"].style.color = 'black'};
@@ -802,9 +802,9 @@ function change_probing_24(probing_depth_min = 0) {
         mg_24_b = document.forms[0]["mg_24_b"].value;
         mg_24_mb = document.forms[0]["mg_24_mb"].value;
         
-        st_24_dp = document.forms[0]["st_24_dp"].value - probing_depth_min <= 0 ? 0 : document.forms[0]["st_24_dp"].value;
-        st_24_p = document.forms[0]["st_24_p"].value - probing_depth_min <= 0 ? 0 : document.forms[0]["st_24_p"].value;
-        st_24_mp = document.forms[0]["st_24_mp"].value - probing_depth_min <= 0 ? 0 : document.forms[0]["st_24_mp"].value;
+        st_24_dp = document.forms[0]["st_24_dp"].value - probing_depth_min <= 0 ? 0 : document.forms[0]["st_24_dp"].value - probing_depth_min;
+        st_24_p = document.forms[0]["st_24_p"].value - probing_depth_min <= 0 ? 0 : document.forms[0]["st_24_p"].value - probing_depth_min;
+        st_24_mp = document.forms[0]["st_24_mp"].value - probing_depth_min <= 0 ? 0 : document.forms[0]["st_24_mp"].value - probing_depth_min;
 
         if (document.forms[0]["st_24_db"].value > probing_depth_min) {document.forms[0]["st_24_db"].style.color = 'red';} else {document.forms[0]["st_24_db"].style.color = 'black'};
         if (document.forms[0]["st_24_b"].value > probing_depth_min) {document.forms[0]["st_24_b"].style.color = 'red';} else {document.forms[0]["st_24_b"].style.color = 'black'};

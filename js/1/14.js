@@ -790,9 +790,9 @@ function change_probing_14(probing_depth_min = 0) {
     if (Tooth_14 == 1) {
         
     // Variablen aus dem Formular
-        st_14_db = document.forms[0]["st_14_db"].value - probing_depth_min <= 0 ? 0 : .forms[0]["st_14_db"].value;
-        st_14_b = document.forms[0]["st_14_b"].value - probing_depth_min <= 0 ? 0 : .forms[0]["st_14_b"].value;
-        st_14_mb = document.forms[0]["st_14_mb"].value - probing_depth_min <= 0 ? 0 : .forms[0]["st_14_mb"].value;
+        st_14_db = document.forms[0]["st_14_db"].value - probing_depth_min <= 0 ? 0 : .forms[0]["st_14_db"].value - probing_depth_min;
+        st_14_b = document.forms[0]["st_14_b"].value - probing_depth_min <= 0 ? 0 : .forms[0]["st_14_b"].value - probing_depth_min;
+        st_14_mb = document.forms[0]["st_14_mb"].value - probing_depth_min <= 0 ? 0 : .forms[0]["st_14_mb"].value - probing_depth_min;
 
         if (document.forms[0]["st_14_dp"].value > probing_depth_min) {document.forms[0]["st_14_dp"].style.color = 'red';} else {document.forms[0]["st_14_dp"].style.color = 'black'}
         if (document.forms[0]["st_14_p"].value > probing_depth_min) {document.forms[0]["st_14_p"].style.color = 'red';} else {document.forms[0]["st_14_p"].style.color = 'black'}
@@ -802,9 +802,9 @@ function change_probing_14(probing_depth_min = 0) {
         mg_14_b = document.forms[0]["mg_14_b"].value;
         mg_14_mb = document.forms[0]["mg_14_mb"].value;
         
-        st_14_dp = document.forms[0]["st_14_dp"].value - probing_depth_min <= 0 ? 0 : .forms[0]["st_14_dp"].value;
-        st_14_p = document.forms[0]["st_14_p"].value - probing_depth_min <= 0 ? 0 : .forms[0]["st_14_p"].value;
-        st_14_mp = document.forms[0]["st_14_mp"].value - probing_depth_min <= 0 ? 0 : .forms[0]["st_14_mp"].value;
+        st_14_dp = document.forms[0]["st_14_dp"].value - probing_depth_min <= 0 ? 0 : .forms[0]["st_14_dp"].value - probing_depth_min;
+        st_14_p = document.forms[0]["st_14_p"].value - probing_depth_min <= 0 ? 0 : .forms[0]["st_14_p"].value - probing_depth_min;
+        st_14_mp = document.forms[0]["st_14_mp"].value - probing_depth_min <= 0 ? 0 : .forms[0]["st_14_mp"].value - probing_depth_min;
 
         if (document.forms[0]["st_14_db"].value > probing_depth_min) {document.forms[0]["st_14_db"].style.color = 'red';} else {document.forms[0]["st_14_db"].style.color = 'black'}
         if (document.forms[0]["st_14_b"].value > probing_depth_min) {document.forms[0]["st_14_b"].style.color = 'red';} else {document.forms[0]["st_14_b"].style.color = 'black'}

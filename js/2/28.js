@@ -867,25 +867,25 @@ function change_probing_28() {
     if (Tooth_28 == 1) {
         
     // Variablen aus dem Formular
-        st_28_db = document.forms[0]["st_28_db"].value;
-        st_28_b = document.forms[0]["st_28_b"].value;
-        st_28_mb = document.forms[0]["st_28_mb"].value;
+        st_28_db = document.forms[0]["st_28_db"].value - probing_depth_min <= 0 ? 0 : document.forms[0]["st_28_db"].value - probing_depth_min;
+        st_28_b = document.forms[0]["st_28_b"].value - probing_depth_min <= 0 ? 0 : document.forms[0]["st_28_b"].value - probing_depth_min;
+        st_28_mb = document.forms[0]["st_28_mb"].value - probing_depth_min <= 0 ? 0 : document.forms[0]["st_28_mb"].value - probing_depth_min;
 
-        if (document.forms[0]["st_28_dp"].value > 3) {document.forms[0]["st_28_dp"].style.color = 'red';} else {document.forms[0]["st_28_dp"].style.color = 'black'};
-        if (document.forms[0]["st_28_p"].value > 3) {document.forms[0]["st_28_p"].style.color = 'red';} else {document.forms[0]["st_28_p"].style.color = 'black'};
-        if (document.forms[0]["st_28_mp"].value > 3) {document.forms[0]["st_28_mp"].style.color = 'red';} else {document.forms[0]["st_28_mp"].style.color = 'black'};
+        if (document.forms[0]["st_28_dp"].value > probing_depth_min) {document.forms[0]["st_28_dp"].style.color = 'red';} else {document.forms[0]["st_28_dp"].style.color = 'black'};
+        if (document.forms[0]["st_28_p"].value > probing_depth_min) {document.forms[0]["st_28_p"].style.color = 'red';} else {document.forms[0]["st_28_p"].style.color = 'black'};
+        if (document.forms[0]["st_28_mp"].value > probing_depth_min) {document.forms[0]["st_28_mp"].style.color = 'red';} else {document.forms[0]["st_28_mp"].style.color = 'black'};
         
         mg_28_db = document.forms[0]["mg_28_db"].value;
         mg_28_b = document.forms[0]["mg_28_b"].value;
         mg_28_mb = document.forms[0]["mg_28_mb"].value;
         
-        st_28_dp = document.forms[0]["st_28_dp"].value;
-        st_28_p = document.forms[0]["st_28_p"].value;
-        st_28_mp = document.forms[0]["st_28_mp"].value;
+        st_28_dp = document.forms[0]["st_28_dp"].value - probing_depth_min <= 0 ? 0 : document.forms[0]["st_28_dp"].value - probing_depth_min;
+        st_28_p = document.forms[0]["st_28_p"].value - probing_depth_min <= 0 ? 0 : document.forms[0]["st_28_p"].value - probing_depth_min;
+        st_28_mp = document.forms[0]["st_28_mp"].value - probing_depth_min <= 0 ? 0 : document.forms[0]["st_28_mp"].value - probing_depth_min;
 
-        if (document.forms[0]["st_28_db"].value > 3) {document.forms[0]["st_28_db"].style.color = 'red';} else {document.forms[0]["st_28_db"].style.color = 'black'};
-        if (document.forms[0]["st_28_b"].value > 3) {document.forms[0]["st_28_b"].style.color = 'red';} else {document.forms[0]["st_28_b"].style.color = 'black'};
-        if (document.forms[0]["st_28_mb"].value > 3) {document.forms[0]["st_28_mb"].style.color = 'red';} else {document.forms[0]["st_28_mb"].style.color = 'black'};
+        if (document.forms[0]["st_28_db"].value > probing_depth_min) {document.forms[0]["st_28_db"].style.color = 'red';} else {document.forms[0]["st_28_db"].style.color = 'black'};
+        if (document.forms[0]["st_28_b"].value > probing_depth_min) {document.forms[0]["st_28_b"].style.color = 'red';} else {document.forms[0]["st_28_b"].style.color = 'black'};
+        if (document.forms[0]["st_28_mb"].value > probing_depth_min) {document.forms[0]["st_28_mb"].style.color = 'red';} else {document.forms[0]["st_28_mb"].style.color = 'black'};
         
         mg_28_dp = document.forms[0]["mg_28_dp"].value;
         mg_28_p = document.forms[0]["mg_28_p"].value;
