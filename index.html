@@ -1266,7 +1266,7 @@
             onblur="if (this.value === '' || this.value.substr(this.value.length - 1) === '-' || this.value.length > 3 || this.value.substr(0, 2) === '--' || this.value.substr(1, 1) === '-') {this.value = '0';} if (1*this.value > 30) { this.value = '30';}"
             onclick="this.setSelectionRange(0, this.value.length);"
             onkeypress="validate_mg(event)"
-            oninput="if (this.value != '-') {change_probing_15();}" />
+            oninput="if (this.value != '-') {change_probing_15(probing_depth_min);}" />
           <input
             class="input_mg"
             id="mg_15_b_txt"
@@ -1278,7 +1278,7 @@
             onblur="if (this.value === '' || this.value.substr(this.value.length - 1) === '-' || this.value.length > 3 || this.value.substr(0, 2) === '--' || this.value.substr(1, 1) === '-') {this.value = '0';} if (1*this.value > 30) { this.value = '30';}"
             onclick="this.setSelectionRange(0, this.value.length);"
             onkeypress="validate_mg(event)"
-            oninput="if (this.value != '-') {change_probing_15();}" />
+            oninput="if (this.value != '-') {change_probing_15(probing_depth_min);}" />
           <input
             class="input_mg"
             id="mg_15_mb_txt"
@@ -1290,7 +1290,7 @@
             onblur="if (this.value === '' || this.value.substr(this.value.length - 1) === '-' || this.value.length > 3 || this.value.substr(0, 2) === '--' || this.value.substr(1, 1) === '-') {this.value = '0';} if (1*this.value > 30) { this.value = '30';}"
             onclick="this.setSelectionRange(0, this.value.length);"
             onkeypress="validate_mg(event)"
-            oninput="if (this.value != '-') {change_probing_15();}" />
+            oninput="if (this.value != '-') {change_probing_15(probing_depth_min);}" />
         </div>
         <div class="ok_bukk_st_input">
           <input
@@ -1304,7 +1304,7 @@
             onblur="if (this.value === '') {this.value = '0';} if (1*this.value > 30) { this.value = '30';}"
             onclick="this.setSelectionRange(0, this.value.length);"
             onkeypress="validate_st(event)"
-            oninput="if (this.value != '-') {change_probing_15();}" />
+            oninput="if (this.value != '-') {change_probing_15(probing_depth_min);}" />
           <input
             class="input_st"
             id="st_15_b_txt"
@@ -1316,7 +1316,7 @@
             onblur="if (this.value === '') {this.value = '0';} if (1*this.value > 30) { this.value = '30';}"
             onclick="this.setSelectionRange(0, this.value.length);"
             onkeypress="validate_st(event)"
-            oninput="if (this.value != '-') {change_probing_15();}" />
+            oninput="if (this.value != '-') {change_probing_15(probing_depth_min);}" />
           <input
             class="input_st"
             id="st_15_mb_txt"
@@ -1328,7 +1328,7 @@
             onblur="if (this.value === '') {this.value = '0';} if (1*this.value > 30) { this.value = '30';}"
             onclick="this.setSelectionRange(0, this.value.length);"
             onkeypress="validate_st(event)"
-            oninput="if (this.value != '-') {change_probing_15();}" />
+            oninput="if (this.value != '-') {change_probing_15(probing_depth_min);}" />
         </div>
 
         <div class="ok_pal_mg_input">
@@ -1343,7 +1343,7 @@
             onblur="if (this.value === '' || this.value.substr(this.value.length - 1) === '-' || this.value.length > 3 || this.value.substr(0, 2) === '--' || this.value.substr(1, 1) === '-') {this.value = '0';} if (1*this.value > 30) { this.value = '30';}"
             onclick="this.setSelectionRange(0, this.value.length);"
             onkeypress="validate_mg(event)"
-            oninput="if (this.value != '-') {change_probing_15();}" />
+            oninput="if (this.value != '-') {change_probing_15(probing_depth_min);}" />
           <input
             class="input_mg"
             id="mg_15_p_txt"
@@ -1355,7 +1355,7 @@
             onblur="if (this.value === '' || this.value.substr(this.value.length - 1) === '-' || this.value.length > 3 || this.value.substr(0, 2) === '--' || this.value.substr(1, 1) === '-') {this.value = '0';} if (1*this.value > 30) { this.value = '30';}"
             onclick="this.setSelectionRange(0, this.value.length);"
             onkeypress="validate_mg(event)"
-            oninput="if (this.value != '-') {change_probing_15();}" />
+            oninput="if (this.value != '-') {change_probing_15(probing_depth_min);}" />
           <input
             class="input_mg"
             id="mg_15_mp_txt"
@@ -1367,7 +1367,7 @@
             onblur="if (this.value === '' || this.value.substr(this.value.length - 1) === '-' || this.value.length > 3 || this.value.substr(0, 2) === '--' || this.value.substr(1, 1) === '-') {this.value = '0';} if (1*this.value > 30) { this.value = '30';}"
             onclick="this.setSelectionRange(0, this.value.length);"
             onkeypress="validate_mg(event)"
-            oninput="if (this.value != '-') {change_probing_15();}" />
+            oninput="if (this.value != '-') {change_probing_15(probing_depth_min);}" />
         </div>
         <div class="ok_pal_st_input">
           <input
@@ -1381,7 +1381,7 @@
             onblur="if (this.value === '') {this.value = '0';} if (1*this.value > 30) { this.value = '30';}"
             onclick="this.setSelectionRange(0, this.value.length);"
             onkeypress="validate_st(event)"
-            oninput="if (this.value != '-') {change_probing_15();}" />
+            oninput="if (this.value != '-') {change_probing_15(probing_depth_min);}" />
           <input
             class="input_st"
             id="st_15_p_txt"
@@ -1393,7 +1393,7 @@
             onblur="if (this.value === '') {this.value = '0';} if (1*this.value > 30) { this.value = '30';}"
             onclick="this.setSelectionRange(0, this.value.length);"
             onkeypress="validate_st(event)"
-            oninput="if (this.value != '-') {change_probing_15();}" />
+            oninput="if (this.value != '-') {change_probing_15(probing_depth_min);}" />
           <input
             class="input_st"
             id="st_15_mp_txt"
@@ -1405,7 +1405,7 @@
             onblur="if (this.value === '') {this.value = '0';} if (1*this.value > 30) { this.value = '30';}"
             onclick="this.setSelectionRange(0, this.value.length);"
             onkeypress="validate_st(event)"
-            oninput="if (this.value != '-') {change_probing_15();}" />
+            oninput="if (this.value != '-') {change_probing_15(probing_depth_min);}" />
         </div>
 
         <div class="BOP_hover_btn" id="BOP_15_dp_btn" onClick="toggle_BOP_15_dp(); calc();" onMouseenter="if (event.shiftKey) {toggle_BOP_15_dp(); calc();}">
